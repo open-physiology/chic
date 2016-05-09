@@ -1,0 +1,316 @@
+@prefix chicsch:        <http://www.chic.eu/ontologies/resource#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mo: <http://www.chic.eu/ontologies/some-model-ontology#>
+
+# p.grenon @ ucl.ac.uk
+
+### Provision for a highlevel schema defining:
+# a class of models
+
+<http://www.chic.eu/ontologies/resource#ModellingEntity>
+  a rdfs:Class ;
+  rdfs:label "Modelling entity" ;
+  rdfs:comment "An instance of ModellingEntity is an entity such as a model or one of its parts." . 
+
+# title or name 
+
+<http://www.chic.eu/ontologies/resource#hasName>
+  a rdf:Property ;
+  rdfs:label "has name" ;
+  rdfs:comment "link between an and a readable name" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Object> ;
+  rdfs:range rdfs:Literal .
+
+# description 
+
+<http://www.chic.eu/ontologies/resource#parameterhasUnits-string>
+  a rdf:Property ;
+  rdfs:label "has description" ;
+  rdfs:comment "link between an and a readable description" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Object> ;
+  rdfs:range rdfs:Literal .
+
+<http://www.chic.eu/ontologies/resource#interpreted-type>
+  a rdf:Property ;
+  rdfs:label "has input parameter" ;
+  rdfs:comment "link between a model and an input parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Object> ;
+  rdfs:range rdfs:Resource .
+  
+### Modelling 
+
+<http://www.chic.eu/ontologies/resource#Object>
+  a rdfs:Class ;
+  rdfs:label "Object" ;
+  rdfs:comment "An instance of Object is an entity." . 
+
+<http://www.chic.eu/ontologies/resource#Model>
+  a rdfs:Class ;
+  rdfs:label "Model" ;
+  rdfs:comment "An instance of Model is a model." ;
+  rdfs:subClassOf <http://www.chic.eu/ontologies/resource#ModellingEntity> . 
+  
+# a class of parameters
+
+<http://www.chic.eu/ontologies/resource#ModelParameter>
+  a rdfs:Class ;
+  rdfs:label "Model parameter" ;
+  rdfs:comment "An instance of ModelParameter is a parameter in a model." ;
+  rdfs:subClassOf <http://www.chic.eu/ontologies/resource#ModellingEntity> . 
+  
+# a relationship between models and parameters
+
+<http://www.chic.eu/ontologies/resource#modelHasParameter>
+  a rdf:Property ;
+  rdfs:label "has parameter" ;
+  rdfs:comment "link between a model and a parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#ModelParameter> .
+
+<http://www.chic.eu/ontologies/resource#modelHasParameter-Input>
+  a rdf:Property ;
+  rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#modelHasParameter> ; 
+  rdfs:label "has input parameter" ;
+  rdfs:comment "link between a model and an input parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#ModelParameter> .
+
+<http://www.chic.eu/ontologies/resource#modelHasParameter-Output>
+  a rdf:Property ;
+  rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#modelHasParameter> ; 
+  rdfs:label "has input parameter" ;
+  rdfs:comment "link between a model and an output parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#ModelParameter> .
+
+# ALT: a relationship between parameters and models
+
+<http://www.chic.eu/ontologies/resource#parameterOfModel>
+  a rdf:Property ;
+  rdfs:label "has parameter" ;
+  rdfs:comment "link between a parameter and a model of which it is a parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#ModelParameter> .
+
+<http://www.chic.eu/ontologies/resource#inputParameterOfModel>
+  a rdf:Property ;
+  rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#parameterOfModel> ; 
+  rdfs:label "has input parameter" ;
+  rdfs:comment "link between a parameter and a model where the parameter is an input parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#Model> .
+
+<http://www.chic.eu/ontologies/resource#outputParameterOfModel>
+  a rdf:Property ;
+  rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#parameterOfModel> ; 
+  rdfs:label "has input parameter" ;
+  rdfs:comment "link between a parameter and a model where the parameter is an output parameter" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range <http://www.chic.eu/ontologies/resource#Model> .
+
+  
+# a relationship to explicit parameter attributes and a class of parameter attributes (input output)
+# or specialised types of parameters 
+
+<http://www.chic.eu/ontologies/resource#hasFileByFilename>
+  a rdf:Property ;
+  rdfs:label "" ;
+  rdfs:comment "links a parameter to the filename in which the parameter is specified" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range rdfs:Literal .
+
+# units associated to parameters 
+
+<http://www.chic.eu/ontologies/resource#parameterhasUnits-string>
+  a rdf:Property ;
+  rdfs:label "has units" ;
+  rdfs:comment "link between a parameter and a unit (string name)" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range rdfs:Literal .
+  
+<http://www.chic.eu/ontologies/resource#parameterhasUnits>
+  a rdf:Property ;
+  rdfs:label "has units" ;
+  rdfs:comment "link between a parameter and a unit (a class in the Unit Ontology)" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range rdfs:Resource .
+  # specialisation of <http://purl.obolibrary.org/obo/UO_0000000> .
+  # Unit 
+
+<http://www.chic.eu/ontologies/resource#parameterhasDatatype>
+  a rdf:Property ;
+  rdfs:label "has units" ;
+  rdfs:comment "link between a parameter and a datatype, for example xsd or other" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range rdfs:Resource .
+
+
+#### Supporting the categorisation of models along perspectives: 
+## a slot associates a model to a concept in a perspective, this can be used to define a corresponding class of models
+
+<http://www.chic.eu/ontologies/resource#objectCharacterisedBy>
+  a rdf:Property ;
+  rdfs:label "characterised by" ;
+  rdfs:comment "Associates an Object to a concept" ;
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Object> ;
+  rdfs:range rdfs:Resource .
+
+<http://www.chic.eu/ontologies/resource#hasPositionIn-1>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 1" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 1" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+
+<http://www.chic.eu/ontologies/resource#hasPositionIn-2>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 2" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 2" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+
+<http://www.chic.eu/ontologies/resource#hasPositionIn-3>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 3" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 3" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-4>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 4" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 4" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-5>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 5" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 5" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-6>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 6" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 6" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-7>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 7" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 7" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-8>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 8" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 8" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-9>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 9" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 9" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-10>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 10" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 10" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+  
+<http://www.chic.eu/ontologies/resource#hasPositionIn-11>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 11" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 11" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+
+<http://www.chic.eu/ontologies/resource#hasPositionIn-12>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 12" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 12" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+
+<http://www.chic.eu/ontologies/resource#hasPositionIn-13>
+  a rdf:Property ;
+  rdfs:label "characterised by according to CHIC perspective 13" ;
+  rdfs:comment "Associates a model to a concept according to CHIC perspective 13" ;
+    rdfs:subPropertyOf <http://www.chic.eu/ontologies/resource#objectCharacterisedBy> ; 
+  rdfs:domain <http://www.chic.eu/ontologies/resource#Model> ;
+  rdfs:range rdfs:Resource .
+
+
+# <http://www.chic.eu/ontologies/resource#inputParameterOfModel>    
+# <http://www.chic.eu/ontologies/resource#hasFileByFilename>        
+# <http://www.chic.eu/ontologies/resource#parameterhasUnits-string> 
+# <http://www.chic.eu/ontologies/resource#interpreted-type>         
+# <http://www.chic.eu/ontologies/resource#outputParameterOfModel>   
+# <http://www.chic.eu/ontologies/resource#hasName>                  
+# <http://www.chic.eu/ontologies/resource#modelHasParameter>        
+# <http://www.chic.eu/ontologies/resource#modelHasParameter-Input>  
+# <http://www.chic.eu/ontologies/resource#modelHasParameter-Output> 
+# <http://www.chic.eu/ontologies/resource#parameterOfModel>         
+# <http://www.chic.eu/ontologies/resource#parameterhasUnits>        
+# <http://www.chic.eu/ontologies/resource#parameterhasDatatype>     
+# <http://www.chic.eu/ontologies/resource#objectCharacterisedBy>    
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-1>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-2>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-3>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-4>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-5>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-6>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-7>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-8>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-9>          
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-10>         
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-11>         
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-12>         
+# <http://www.chic.eu/ontologies/resource#hasPositionIn-13> 
+
+### modelling choices oppen
+#
+#<#model1> rdfs:label "Wilms model" .
+#
+#<#parameter1>
+#  mo:input-parameter-of <#model1> ;
+#  rdfs:label "Cell cycle duration of stem cells" ;
+#  mo:interpreted-type #<http://www.chic.eu/ontologies/some-domain-ontology#CHIC_0001023> .
+#
+#<#model2> rdfs:label "not the Wilms model" .
+#
+#<#parameter2a>
+#  mo:input-parameter-of <#model2> ;
+#  rdfs:label "Cell cycle duration of stem cells" ;
+#  mo:interpreted-type #<http://www.chic.eu/ontologies/some-domain-ontology#CHIC_0001023> .
+#
+#
+#<#model3> rdfs:label "not the Wilms model either" .
+#
+#<#parameter3a>
+#  mo:output-parameter-of <#model3> ;
+#  rdfs:label "Cell cycle duration of stem cells" ;
+#  mo:interpreted-type #<http://www.chic.eu/ontologies/some-domain-ontology#CHIC_0001023> .
+#
+#### Independently
+# <http://www.chic.eu/ontologies/some-domain-ontology#CHIC_0001023> is defined in a knowledge base as a specialisation of duration (some other ID) of processes of type cell cycle of stem cells (some other id, for a term itself defined as a specialisation of cell cycle involving stem cells)
