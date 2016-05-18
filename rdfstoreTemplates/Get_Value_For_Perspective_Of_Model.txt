@@ -1,0 +1,9 @@
+# 0 = Model
+# 1 = Perspective
+SELECT ?a
+WHERE
+{
+  <[0]>
+  <[1]>
+  ?a 
+}

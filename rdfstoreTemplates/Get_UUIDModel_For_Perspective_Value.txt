@@ -1,0 +1,13 @@
+# 0 = Perspective
+# 1 = Value
+SELECT ?uuid
+WHERE
+{
+  ?model 
+  <[0]>
+  <[1]> 
+  . 
+  ?model
+  <http://www.chic-vph.eu/ontologies/resource#hasCHICuuid>
+  ?uuid
+}
