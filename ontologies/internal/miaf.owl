@@ -27,7 +27,6 @@
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Prefix name="edamontology" IRI="http://edamontology.org#"/>
     <Prefix name="edamontology2" IRI="http://edamontology.org/"/>
-    <Import>http://purl.org/NET/rdflicense</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ontology for medical data annoation in the virtual skeleton database framework</Literal>
@@ -87,7 +86,7 @@
         <ObjectProperty IRI="#00000032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000021"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Meter"/>
     </Declaration>
     <Declaration>
         <Class IRI="#single-shot-fast-spin-echofast"/>
@@ -115,9 +114,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#steady-state-free-precession"/>
@@ -153,9 +149,6 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000020"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#00000142"/>
     </Declaration>
     <Declaration>
@@ -175,6 +168,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#calibration-sequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39452"/>
@@ -211,9 +207,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:format_3548"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000012"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000145"/>
@@ -300,9 +293,6 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39450"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000011"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optoacoustic_imaging"/>
     </Declaration>
     <Declaration>
@@ -363,6 +353,9 @@
         <AnnotationProperty abbreviatedIRI="dc:identifier"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://qudt.org/schema/qudt#MassUnit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.org/dc/dcmitype/00000111"/>
     </Declaration>
     <Declaration>
@@ -370,9 +363,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39390"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#00000011"/>
     </Declaration>
     <Declaration>
         <Class IRI="#time-of-flight-gradient-echo"/>
@@ -384,10 +374,16 @@
         <Class IRI="#gradient-recalled-acquisition-in-the-steady-state"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#00000132"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OBI_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#00000161"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:DCMIType"/>
@@ -399,10 +395,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71361"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:format_3549"/>
+        <Class IRI="#inversion-recovery---rapid-acquisition-with-relaxation-enhancement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#inversion-recovery---rapid-acquisition-with-relaxation-enhancement"/>
+        <Class abbreviatedIRI="edamontology2:format_3549"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#00000119"/>
@@ -424,9 +420,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#00000009"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#00000012"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:data_2603"/>
@@ -483,6 +476,9 @@
         <Class IRI="#tirm-turbo-inversion-recovery-magnitude"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#00000166"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#fast-spin-echo---short-tau-inversion-recovery"/>
     </Declaration>
     <Declaration>
@@ -499,6 +495,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#three-dimensional-chemical-shift-imaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#00000167"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#firstname"/>
@@ -523,6 +522,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#SecondTime"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/dc/dcmitype/00000112"/>
@@ -612,10 +614,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39382"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000018"/>
+        <AnnotationProperty abbreviatedIRI="terms:hasVersion"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:hasVersion"/>
+        <NamedIndividual IRI="#00000164"/>
     </Declaration>
     <Declaration>
         <Class IRI="#inversion-recovery-utilizing-only-the-magnitude"/>
@@ -678,6 +680,9 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71349"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#00000165"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#raw_image"/>
     </Declaration>
     <Declaration>
@@ -696,6 +701,9 @@
         <NamedIndividual IRI="#vsd13"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000384"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#clinical_study_definition"/>
     </Declaration>
     <Declaration>
@@ -703,6 +711,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71360"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Kilogram"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71372"/>
@@ -756,6 +767,9 @@
         <Class abbreviatedIRI="edamontology2:format_3508"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#00000162"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
     </Declaration>
     <Declaration>
@@ -763,6 +777,9 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000383"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#lastname"/>
@@ -810,16 +827,19 @@
         <Class abbreviatedIRI="dcmitype:InteractiveResource"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluorescence_lifetime_imaging"/>
+        <NamedIndividual IRI="#00000163"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000019"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluorescence_lifetime_imaging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#genomic_series"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#perfusion-sequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#00000019"/>
     </Declaration>
     <Declaration>
         <Class IRI="#surface_model"/>
@@ -864,9 +884,6 @@
         <Class IRI="#00000123"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000159"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#plain"/>
     </Declaration>
     <Declaration>
@@ -906,6 +923,9 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71345"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71369"/>
     </Declaration>
     <Declaration>
@@ -916,9 +936,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#turbo-short-tau-inversion-recovery"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000013"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="foaf:ProfessionalTitle"/>
@@ -1092,6 +1109,9 @@
         <Class IRI="#00000003"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Day"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-echo-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
@@ -1126,18 +1146,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-echo-spin-echo-sequence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Duty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Prohibition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Constraint"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Permission"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#00000118"/>
@@ -1836,6 +1844,18 @@
         <Class IRI="#00000008"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
+        <Class IRI="#00000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://qudt.org/schema/qudt#MassUnit"/>
+        <Class IRI="#00000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <Class IRI="#00000161"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bachelor_of_Science"/>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39327"/>
     </SubClassOf>
@@ -2244,18 +2264,6 @@
         <Class abbreviatedIRI="edamontology2:format_2332"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#00000011"/>
-        <Class abbreviatedIRI="obo:PATO_0000047"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000012"/>
-        <Class abbreviatedIRI="obo:PATO_0000047"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000013"/>
-        <Class abbreviatedIRI="obo:PATO_0000047"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#00000014"/>
         <Class IRI="#00000008"/>
     </SubClassOf>
@@ -2270,22 +2278,6 @@
     <SubClassOf>
         <Class IRI="#00000017"/>
         <Class IRI="#00000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000018"/>
-        <Class IRI="#00000017"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000019"/>
-        <Class IRI="#00000017"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000020"/>
-        <Class IRI="#00000017"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000021"/>
-        <Class IRI="#00000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#00000104"/>
@@ -2372,6 +2364,10 @@
         <Class abbreviatedIRI="edamontology2:data_1059"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#00000161"/>
+        <Class IRI="#00000008"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#00000200"/>
         <Class IRI="#00000004"/>
     </SubClassOf>
@@ -2390,26 +2386,6 @@
     <SubClassOf>
         <Class IRI="#positron_emission_tomography–magnetic_resonance_imaging"/>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#00000135"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Constraint"/>
-        <Class IRI="#00000159"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Duty"/>
-        <Class IRI="#00000159"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Permission"/>
-        <Class IRI="#00000159"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
-        <Class IRI="#00000159"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Prohibition"/>
-        <Class IRI="#00000159"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="foaf:ProfessionalTitle"/>
@@ -2497,6 +2473,34 @@
         <Class IRI="#surface_model"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class abbreviatedIRI="obo:PATO_0000047"/>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000383"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:PATO_0000047"/>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000384"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#MassUnit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Kilogram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Meter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#SecondTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-sequence"/>
         <NamedIndividual IRI="#calibration-sequence"/>
     </ClassAssertion>
@@ -2509,17 +2513,46 @@
         <NamedIndividual IRI="#spin-echo-ind"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-echo-spin-echo-sequence"/>
+        <NamedIndividual IRI="#spin-echo-ind"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#00000005"/>
         <NamedIndividual IRI="#vsd13"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="obo:PATO_0000047"/>
-        <NamedIndividual IRI="#00000011"/>
+        <Class IRI="#00000017"/>
+        <NamedIndividual IRI="#00000019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#00000017"/>
+        <NamedIndividual IRI="#00000162"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#00000017"/>
+        <NamedIndividual IRI="#00000163"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#00000017"/>
+        <NamedIndividual IRI="#00000164"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="obo:PATO_0000047"/>
-        <NamedIndividual IRI="#00000012"/>
+        <NamedIndividual IRI="#00000165"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <NamedIndividual IRI="#00000166"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
+        <NamedIndividual IRI="#00000167"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#00000023"/>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000383"/>
+        <NamedIndividual abbreviatedIRI="obo:PATO_0000383"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#00000033"/>
         <NamedIndividual IRI="#calibration-sequence"/>
@@ -2530,15 +2563,15 @@
         <NamedIndividual IRI="#vsd13"/>
         <NamedIndividual IRI="#spin-echo-ind"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#00000023"/>
-        <NamedIndividual IRI="#00000011"/>
-        <NamedIndividual IRI="#00000011"/>
-    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25354"/>
         <NamedIndividual IRI="#calibration-sequence"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">some degree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#vsd13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">vsd.Femur.XX.M.CT.13.dcm</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#used_by"/>
@@ -4653,6 +4686,46 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gender</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <AbbreviatedIRI>obo:PATO_0000383</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">F</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <AbbreviatedIRI>obo:PATO_0000383</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">f</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000383</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Female</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:PATO_0000383</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PATO_0000383</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <AbbreviatedIRI>obo:PATO_0000384</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <AbbreviatedIRI>obo:PATO_0000384</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">m</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000384</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Male</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:PATO_0000384</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PATO_0000384</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <AbbreviatedIRI>dcmitype:</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2012-06-14</Literal>
@@ -5166,6 +5239,71 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:LicenseDocument</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">License</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/schema/qudt#LengthUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Length Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/schema/qudt#MassUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mass Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/schema/qudt#TimeUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Time Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>http://qudt.org/vocab/unit#Day</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/vocab/unit#Day</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>http://qudt.org/vocab/unit#Kilogram</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">kg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/vocab/unit#Kilogram</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kilogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>http://qudt.org/vocab/unit#Meter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">m</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/vocab/unit#Meter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>http://qudt.org/vocab/unit#SecondTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/vocab/unit#SecondTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Second</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>http://qudt.org/vocab/unit#Year365Day</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://qudt.org/vocab/unit#Year365Day</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Year</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#abbreviation"/>
@@ -6508,56 +6646,6 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MIAME Notation in Markup Language</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#abbreviation"/>
-        <IRI>#00000011</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">F</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#abbreviation"/>
-        <IRI>#00000011</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">f</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000011</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Female</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#00000011</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PATO_0000383</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#abbreviation"/>
-        <IRI>#00000012</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">M</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#abbreviation"/>
-        <IRI>#00000012</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">m</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000012</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Male</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#00000012</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PATO_0000384</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#abbreviation"/>
-        <IRI>#00000013</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000013</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000014</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MR sequence acronym</Literal>
@@ -6589,23 +6677,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000018</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GE Medical Systems</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000019</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hitachi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000020</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Philips Medical Systems</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000021</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Siemens Medical Solutions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6999,18 +7072,123 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000159</IRI>
+        <IRI>#00000161</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
-        <IRI>#00000159</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T12:48:24Z</Literal>
+        <IRI>#00000161</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T13:54:04Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000159</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RDFLicense</Literal>
+        <IRI>#00000161</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Units</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000162</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000162</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:22:50Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000162</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GE Medical Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000163</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000163</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:25:17Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000163</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Philips Medical Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000164</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000164</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:25:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000164</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Siemens Medical Solutions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000165</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000165</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:26:31Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>#00000165</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000165</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000166</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:44:57Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>#00000166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">w</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000166</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Week</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000167</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000167</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T14:45:29Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#abbreviation"/>
+        <IRI>#00000167</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">m</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000167</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Month</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
