@@ -270,7 +270,7 @@
 # nephroblastoma http://purl.obolibrary.org/obo/HP_0002667
 # colon cancer http://purl.obolibrary.org/obo/HP_0003003
 # prostate cancer http://purl.obolibrary.org/obo/HP_0012125
-  chicsch:designatedValueWithPreferredLabel (<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19323> "lung cancer" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://purl.obolibrary.org/obo/HP_0100526> "lung cancer" ) ;
   chicsch:designatedValueWithPreferredLabel (<http://purl.obolibrary.org/obo/HP_0100843> "gliobastoma" ) ;
   chicsch:designatedValueWithPreferredLabel (<http://purl.obolibrary.org/obo/HP_0002667> "nephroblastoma" ) ;
   chicsch:designatedValueWithPreferredLabel (<http://purl.obolibrary.org/obo/HP_0003003> "colon cancer" ) ;
