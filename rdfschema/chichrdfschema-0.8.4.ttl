@@ -1,7 +1,7 @@
-PREFIX chicsch: <http://www.chic-vph.eu/ontologies/resource#> 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX mo: <http://www.chic.eu/ontologies/some-model-ontology#>
+@prefix chicsch: <http://www.chic-vph.eu/ontologies/resource#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mo: <http://www.chic-vph.eu/ontologies/some-model-ontology#> .
 
 # p.grenon @ ucl.ac.uk
 
