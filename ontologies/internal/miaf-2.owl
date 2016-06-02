@@ -7,7 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.virtualskeleton.ch/MIAF"
      versionIRI="http://www.virtualskeleton.ch/MIAF">
-    <Prefix name="" IRI="http://www.virtualskeleton.ch/MIAF"/>
+    <Prefix name="" IRI="http://www.virtualskeleton.ch/MIAF#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -50,10 +50,10 @@
         <NamedIndividual IRI="#00000269"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000257"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-stimulated-echoes-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-stimulated-echoes-sequence"/>
+        <NamedIndividual IRI="#00000257"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000245"/>
@@ -74,9 +74,6 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71378"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#Meter"/>
     </Declaration>
     <Declaration>
@@ -87,9 +84,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69167"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000130"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/dc/dcmitype/00000143"/>
@@ -113,10 +107,10 @@
         <AnnotationProperty IRI="#00000236"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
+        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71353"/>
@@ -128,13 +122,16 @@
         <NamedIndividual IRI="#00000258"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71341"/>
+        <NamedIndividual IRI="#00000379"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000246"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="foaf:nick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71341"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71377"/>
@@ -164,10 +161,13 @@
         <Class IRI="#modified-driven-equilibrium-fourier-transform"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39452"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001980"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39452"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/odbc-by1.0"/>
@@ -185,19 +185,16 @@
         <Class IRI="#spin-echo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000267"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#00000207"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71344"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000255"/>
+        <NamedIndividual IRI="#00000267"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-sa4.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#00000255"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71368"/>
@@ -209,31 +206,25 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39389"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000120"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000362"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000363"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000375"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="edamontology2:format_3548"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000145"/>
+        <Class IRI="#00000375"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39388"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000205"/>
+        <Class IRI="http://purl.org/dc/dcmitype/00000133"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/dc/dcmitype/00000133"/>
+        <ObjectProperty IRI="#00000205"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39473"/>
@@ -299,22 +290,19 @@
         <Class IRI="#00000010"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12833"/>
+        <Class IRI="#00000361"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000361"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12833"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000373"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000374"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000144"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#00000374"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OBI_0000083"/>
@@ -401,22 +389,22 @@
         <NamedIndividual IRI="#00000265"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000253"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="#00000038"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#00000253"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Diffuse_optical_imaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.gnu.org/licenses/gpl-3.0.rdf"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000278"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000266"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#00000206"/>
     </Declaration>
     <Declaration>
         <Class IRI="#gradient-recalled-acquisition-in-the-steady-state"/>
@@ -428,13 +416,10 @@
         <Class IRI="#00000161"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71373"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71373"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71361"/>
@@ -452,28 +437,28 @@
         <Class IRI="http://purl.org/dc/dcmitype/00000122"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast"/>
+        <NamedIndividual IRI="#00000254"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000254"/>
+        <AnnotationProperty IRI="#00000376"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71364"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#time-of-flight-angio-sequence"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71352"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71352"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#time-of-flight-angio-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-imaging-employing-steady-state-acquisition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
+        <NamedIndividual IRI="#00000299"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000299"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Tomography"/>
@@ -521,16 +506,16 @@
         <NamedIndividual IRI="#00000263"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#H1-single-voxel-spectroscopy-sequence"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#00000251"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#three-dimensional-chemical-shift-imaging"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#H1-single-voxel-spectroscopy-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three-dimensional-chemical-shift-imaging"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000288"/>
@@ -557,13 +542,13 @@
         <Class IRI="http://purl.org/dc/dcmitype/00000112"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#magnetization-prepared-rapid-gradient-echo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/57427004"/>
     </Declaration>
     <Declaration>
         <Class IRI="#spoiled-gradient-recalled-acquisition-in-steady-state"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#magnetization-prepared-rapid-gradient-echo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000276"/>
@@ -575,13 +560,13 @@
         <NamedIndividual IRI="#00000264"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#segmentation_image"/>
+        <NamedIndividual IRI="#00000252"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000252"/>
+        <Class IRI="#segmentation_image"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-low-angle-shot"/>
@@ -593,13 +578,10 @@
         <NamedIndividual IRI="#00000338"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dcmitype:MovingImage"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#00000326"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001982"/>
+        <Class abbreviatedIRI="dcmitype:MovingImage"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000314"/>
@@ -614,10 +596,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71370"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spectroscopy-sequence"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Bachelor_of_Science"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spectroscopy-sequence"/>
+        <DataProperty IRI="#00000390"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000200"/>
@@ -650,9 +635,6 @@
         <NamedIndividual IRI="#00000339"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001981"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#00000327"/>
     </Declaration>
     <Declaration>
@@ -671,16 +653,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71381"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#00000391"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#00000223"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000356"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000126"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000114"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000368"/>
@@ -725,37 +704,28 @@
         <DataProperty abbreviatedIRI="foaf:mbox"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71372"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#calibration-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#calibration-sequence"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71372"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39392"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000347"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000117"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000359"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000105"/>
+        <Class IRI="#00000347"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000226"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000129"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001984"/>
+        <Class IRI="#00000359"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000008"/>
@@ -767,25 +737,22 @@
         <Class abbreviatedIRI="edamontology2:format_3508"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000313"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#X-ray_computed_tomography"/>
     </Declaration>
     <Declaration>
-        <Datatype abbreviatedIRI="xsd:date"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#00000301"/>
+        <NamedIndividual IRI="#00000313"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Ultrasound"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000337"/>
+        <NamedIndividual IRI="#00000301"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001983"/>
+        <NamedIndividual IRI="#00000337"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000325"/>
@@ -797,28 +764,25 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-shot-gradient-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001975"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71371"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113644"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:format_3604"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000201"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000104"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113644"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000225"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39381"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000358"/>
@@ -833,10 +797,10 @@
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/337915000"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000334"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#perfusion-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#perfusion-sequence"/>
+        <NamedIndividual IRI="#00000334"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000322"/>
@@ -860,10 +824,10 @@
         <Class IRI="#00000002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000014"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39386"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39386"/>
+        <Class IRI="#00000014"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000365"/>
@@ -872,19 +836,22 @@
         <Class IRI="#00000123"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#plain"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001983"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3066"/>
+        <Class IRI="#plain"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#DNA_sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Gallium_imaging"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3066"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000335"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Gallium_imaging"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000323"/>
@@ -896,10 +863,10 @@
         <NamedIndividual IRI="#00000311"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fluid-attenuated-inversion-recovery"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3068"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3068"/>
+        <Class IRI="#fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
@@ -911,22 +878,19 @@
         <Class IRI="#00000230"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000110"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000364"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#clinical_study_data"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000146"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39387"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#clinical_study_data"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#00000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001984"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
@@ -935,22 +899,19 @@
         <Class abbreviatedIRI="terms:DCMIType"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
+        <Class IRI="#a-backward-running-fisp"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#a-backward-running-fisp"/>
+        <AnnotationProperty abbreviatedIRI="terms:date"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000247"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000332"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:age"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001980"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000259"/>
@@ -959,10 +920,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C67144"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#turbo-spin-echo"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71380"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71380"/>
+        <Class IRI="#turbo-spin-echo"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_emission_tomography"/>
@@ -971,10 +932,7 @@
         <Class IRI="#constructive-interference-in-the-steady-state"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#00000209"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001981"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="https://www.smir.ch/users/5"/>
@@ -983,7 +941,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000113"/>
+        <ObjectProperty IRI="#00000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000355"/>
@@ -995,22 +956,16 @@
         <Class IRI="#00000367"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000137"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000125"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000004"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39384"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3064"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3064"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography"/>
     </Declaration>
     <Declaration>
         <Class IRI="#gradient-echo-and-spin-echo"/>
@@ -1031,10 +986,10 @@
         <AnnotationProperty abbreviatedIRI="terms:publisher"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000333"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Zonography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Zonography"/>
+        <NamedIndividual IRI="#00000333"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000321"/>
@@ -1052,10 +1007,10 @@
         <Class IRI="http://purl.org/dc/dcmitype/00000109"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
+        <Class IRI="#00000221"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000221"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#00000237"/>
@@ -1079,19 +1034,16 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25354"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3065"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-spoiled-gradient-echo-sequence"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3065"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Tactile_imaging"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#00000170"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
@@ -1103,10 +1055,13 @@
         <DataProperty abbreviatedIRI="foaf:firstName"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#subject"/>
+        <DataProperty IRI="#00000386"/>
     </Declaration>
     <Declaration>
         <Class IRI="#point-resolved-spatial-selection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subject"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
@@ -1130,22 +1085,22 @@
         <Class IRI="#fast-field-echo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Functional_near-infrared_spectroscopy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#00000033"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000142"/>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <ObjectProperty IRI="#00000142"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-segmented-gradient-echo-echo-planar-imaging-sequence"/>
@@ -1158,6 +1113,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="dcmitype:StillImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000387"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/publicdomain"/>
@@ -1181,7 +1139,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0002064"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000384"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:format_3590"/>
@@ -1217,10 +1178,16 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#hybrid-gradient-echo-and-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#00000385"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#00000240"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000306"/>
@@ -1241,12 +1208,6 @@
         <Class IRI="http://qudt.org/schema/qudt#MassUnit"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001974"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000107"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000228"/>
     </Declaration>
     <Declaration>
@@ -1259,7 +1220,16 @@
         <AnnotationProperty abbreviatedIRI="terms:type"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#00000394"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-contrast"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000382"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#00000380"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
@@ -1280,10 +1250,10 @@
         <Class abbreviatedIRI="obo:OBI_0000167"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000227"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000106"/>
+        <Class IRI="#00000227"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-orientation-at-acquisition"/>
@@ -1292,13 +1262,13 @@
         <Class IRI="#00000239"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000118"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39391"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39391"/>
+        <DataProperty IRI="#00000383"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:data_2603"/>
@@ -1322,10 +1292,16 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optical_imaging"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002064"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#tirm-turbo-inversion-recovery-magnitude"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-spin-echo---short-tau-inversion-recovery"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000392"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Calcium_imaging"/>
@@ -1364,19 +1340,19 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Radiography"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:data_2968"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#00000108"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#00000229"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0001975"/>
+        <Class abbreviatedIRI="edamontology2:data_2968"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000381"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by4.0"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000393"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://open.vocab.org/terms/fileSize"/>
@@ -1386,9 +1362,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39327"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#00000234"/>
     </Declaration>
     <Declaration>
         <Class IRI="#bi-dimensional-phase-contrast-angiography"/>
@@ -1418,19 +1391,19 @@
         <NamedIndividual IRI="#00000285"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000273"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
+        <NamedIndividual IRI="#00000273"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#velocity-encoded-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
     </Declaration>
     <Declaration>
         <Class IRI="#statistical_model"/>
@@ -1442,10 +1415,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39449"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency"/>
+        <Class IRI="#contrast-enhanced-fast"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#contrast-enhanced-fast"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71349"/>
@@ -1460,16 +1433,16 @@
         <NamedIndividual IRI="#00000286"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/MIT1.0"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="edamontology2:data_0006"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000274"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/MIT1.0"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#00000274"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000262"/>
@@ -1490,6 +1463,9 @@
         <Class IRI="#inversion-recovery-fast-spin-echo"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#00000378"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000283"/>
     </Declaration>
     <Declaration>
@@ -1499,10 +1475,10 @@
         <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000271"/>
+        <DataProperty IRI="#00000344"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#00000344"/>
+        <NamedIndividual IRI="#00000271"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="foaf:title"/>
@@ -1514,19 +1490,16 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#H1-chemical-shift-imaging-spectroscopy-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
+        <NamedIndividual IRI="#00000295"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000041"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000295"/>
+        <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:created"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="obo:PATO_0000383"/>
@@ -1538,13 +1511,7 @@
         <DataProperty IRI="http://purl.org/stuff/rev#rating"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-contrast"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="edamontology2:format_3550"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="hhttp://www.gnu.org/licenses/gpl-3.0.rdf"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StereoLithography"/>
@@ -1568,6 +1535,9 @@
         <NamedIndividual IRI="#00000296"/>
     </Declaration>
     <Declaration>
+        <DataProperty abbreviatedIRI="edamontology2:data_1059"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000284"/>
     </Declaration>
     <Declaration>
@@ -1586,9 +1556,6 @@
         <Class abbreviatedIRI="foaf:honorificPrefix"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000024"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#principle-of-echo-shifting-with-a-train-of-observations"/>
     </Declaration>
     <Declaration>
@@ -1598,10 +1565,10 @@
         <Class abbreviatedIRI="edamontology2:format_2330"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Molecular_imaging"/>
+        <Class IRI="#true-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#true-inversion-recovery"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Molecular_imaging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#double-echo-steady-state"/>
@@ -1631,9 +1598,6 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71369"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000025"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="terms:LicenseDocument"/>
     </Declaration>
     <Declaration>
@@ -1652,16 +1616,16 @@
         <NamedIndividual IRI="#00000270"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-MR-sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cone_beam_computed_tomography"/>
@@ -1670,13 +1634,7 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71348"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/ms-c-nored"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#00000034"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time"/>
@@ -1691,10 +1649,10 @@
         <Class IRI="#study"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ERO_0002032"/>
+        <Class IRI="#turbo-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#turbo-inversion-recovery"/>
+        <DataProperty IRI="#00000388"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:format_2332"/>
@@ -1712,7 +1670,13 @@
         <Class IRI="#Diffusion-weighted_imaging"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#00000389"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71359"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71347"/>
@@ -1745,7 +1709,13 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-shot-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#00000377"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000292"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="edamontology2:format_2333"/>
@@ -1754,29 +1724,14 @@
         <NamedIndividual IRI="#00000280"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-non-cartesian-MR-sequence"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:identifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-non-cartesian-MR-sequence"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-echo-spin-echo-sequence"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#00000118"/>
-        <Class IRI="#00000146"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#00000120"/>
-        <Class IRI="#00000126"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#00000144"/>
-        <Class IRI="#00000145"/>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
         <Class IRI="#00000008"/>
@@ -1915,10 +1870,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="edamontology2:data_0006"/>
-        <Class IRI="#00000008"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
         <Class IRI="#00000008"/>
     </SubClassOf>
     <SubClassOf>
@@ -2242,18 +2193,6 @@
         <Class IRI="#00000008"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast"/>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-contrast"/>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#BOLD-sequence"/>
     </SubClassOf>
@@ -2378,10 +2317,6 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-sequence"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast"/>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-echo-echo-planar-imaging-sequence"/>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#multi-echo-spin-echo-sequence"/>
     </SubClassOf>
@@ -2456,42 +2391,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:ERO_0001972"/>
         <Class IRI="#00000008"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001974"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001975"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001980"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001981"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001982"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001983"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0001984"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0002032"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ERO_0002064"/>
-        <Class abbreviatedIRI="obo:ERO_0001972"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBCS_0000035"/>
@@ -2954,38 +2853,6 @@
         <Class IRI="#00000014"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#00000104"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000105"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000106"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000107"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000108"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000110"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000113"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000114"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#00000115"/>
         <Class abbreviatedIRI="edamontology2:format_3590"/>
     </SubClassOf>
@@ -2994,48 +2861,8 @@
         <Class abbreviatedIRI="edamontology2:format_2330"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#00000118"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000120"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#00000123"/>
         <Class abbreviatedIRI="edamontology2:format_2330"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000125"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000126"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000129"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000130"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000137"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000144"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000145"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#00000146"/>
-        <Class abbreviatedIRI="edamontology2:data_1059"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#00000161"/>
@@ -3210,10 +3037,6 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-echo-spin-echo-sequence"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
-        <NamedIndividual IRI="hhttp://www.gnu.org/licenses/gpl-3.0.rdf"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12833"/>
     </ClassAssertion>
@@ -3243,7 +3066,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
@@ -3255,7 +3078,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/57427004"/>
@@ -3268,6 +3091,38 @@
     <ClassAssertion>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/57427004"/>
         <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/87683000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001975"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001980"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001981"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001983"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002064"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="obo:PATO_0000047"/>
@@ -3364,6 +3219,10 @@
     <ClassAssertion>
         <Class IRI="http://qudt.org/schema/qudt#TimeUnit"/>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
+        <NamedIndividual IRI="http://www.gnu.org/licenses/gpl-3.0.rdf"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#00000014"/>
@@ -3784,6 +3643,10 @@
     <ClassAssertion>
         <Class IRI="#00000347"/>
         <NamedIndividual IRI="#00000354"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+        <NamedIndividual IRI="#00000379"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
@@ -4410,9 +4273,14 @@
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by4.0"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#00000034"/>
+        <ObjectProperty IRI="#00000031"/>
         <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
-        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <NamedIndividual IRI="#00000041"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#00000205"/>
+        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#00000209"/>
@@ -4423,11 +4291,6 @@
         <ObjectProperty IRI="#00000209"/>
         <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
         <NamedIndividual IRI="https://www.smir.ch/files/2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#00000234"/>
-        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
-        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#00000235"/>
@@ -4445,10 +4308,20 @@
         <NamedIndividual IRI="#00000352"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#00000378"/>
+        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001975"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#00000029"/>
         <NamedIndividual IRI="https://www.smir.ch/objects/23"/>
         <NamedIndividual abbreviatedIRI="obo:PATO_0000384"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="edamontology2:data_1059"/>
+        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">svg</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://purl.org/stuff/rev#rating"/>
         <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
@@ -4465,78 +4338,35 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://some_address#MEASUREMENT_70_5_kilograms</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Michael</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:lastName"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kistler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="foaf:mbox"/>
         <NamedIndividual IRI="https://www.smir.ch/users/5"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">michael.kistler@istb.unibe.ch</Literal>
     </DataPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000024"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000025"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000028"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000029"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000030"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000031"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000033"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000034"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000119"/>
-        <ObjectProperty IRI="#00000025"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000142"/>
-        <ObjectProperty IRI="#00000025"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000205"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000209"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000234"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000235"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000241"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000346"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#00000351"/>
-        <ObjectProperty IRI="#00000024"/>
-    </SubObjectPropertyOf>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:nick"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">kistm1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:status"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Blocked</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:title"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39387</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#00000028"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
@@ -4558,23 +4388,11 @@
         <Class IRI="#00000014"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#00000034"/>
-        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#00000034"/>
-        <Class IRI="#00000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#00000205"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#00000209"/>
-        <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#00000234"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -4591,6 +4409,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#00000351"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#00000378"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -4614,20 +4436,12 @@
         <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#00000034"/>
-        <Class abbreviatedIRI="foaf:Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#00000205"/>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-image-contrast"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#00000209"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#00000234"/>
-        <Class abbreviatedIRI="foaf:Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#00000235"/>
@@ -4645,98 +4459,10 @@
         <ObjectProperty IRI="#00000351"/>
         <Class IRI="#00000347"/>
     </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-y"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#repetition-time"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-orientation-at-acquisition"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-spacing"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-thickness"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://open.vocab.org/terms/fileSize"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://purl.org/stuff/rev#rating"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#00000206"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#00000207"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#00000240"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#00000344"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#00000345"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:age"/>
-        <DataProperty IRI="#00000207"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:firstName"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:lastName"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:mbox"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:nick"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:status"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty abbreviatedIRI="foaf:title"/>
-        <DataProperty IRI="#00000206"/>
-    </SubDataPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#00000378"/>
+        <Class abbreviatedIRI="obo:ERO_0001972"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
@@ -4778,11 +4504,11 @@
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#00000207"/>
+        <DataProperty IRI="#00000240"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#00000240"/>
+        <DataProperty IRI="#00000377"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -4814,8 +4540,12 @@
         <Class abbreviatedIRI="foaf:Person"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time"/>
-        <Datatype abbreviatedIRI="xsd:anyURI"/>
+        <DataProperty abbreviatedIRI="edamontology2:data_1059"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
@@ -4858,45 +4588,89 @@
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#00000377"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000381"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000382"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000383"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000384"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000385"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000386"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000387"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000388"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000389"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000390"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000391"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000392"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000393"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#00000394"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty abbreviatedIRI="foaf:age"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:firstName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty abbreviatedIRI="foaf:lastName"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="foaf:mbox"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="foaf:nick"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="foaf:title"/>
         <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>hhttp://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">GNU GPL</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:source"/>
-        <IRI>hhttp://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
-        <IRI>http://gnu.org/licenses/gpl-3.0.html</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>hhttp://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">GNU General Public License</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
-        <IRI>hhttp://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
-        <IRI>http://www.gnu.org/graphics/gplv3-127x51.png</IRI>
-    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://bioontology.org/projects/ontologies/birnlex#birnlex_12832</IRI>
@@ -5006,6 +4780,11 @@
         <AnnotationProperty IRI="#00000038"/>
         <IRI>http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Computed tomography</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -5668,9 +5447,19 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>edamontology2:data_1059</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Extension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>edamontology2:data_1059</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">File name extension</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">File name extension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>edamontology2:data_1188</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DOI</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6198,6 +5987,26 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Naturopathic Doctor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">kvP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kilovolt Peak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The peak accelerating voltage applied in an X-ray tube between the cathode and anode.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kilovolt Peak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C67143</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Professional Doctorate</Literal>
@@ -6210,7 +6019,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69166</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mr</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mr</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6220,7 +6029,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69167</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Miss</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Miss</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6230,7 +6039,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69168</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mrs</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mrs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6240,7 +6049,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69169</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ms</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6709,13 +6518,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast</IRI>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1-c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrast</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1 contrast</Literal>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1-contrast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -6773,6 +6582,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-26T11:12:36Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Echo time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Echo time</Literal>
@@ -6786,6 +6600,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#hybrid-gradient-echo-and-spin-echo-sequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hybrid gradient echo and spin echo sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Imaging frequency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6806,6 +6625,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-single-shot-spin-echo-sequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inversion recovery single shot spin echo sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inversion time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6883,6 +6707,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T21:57:13Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pixel spacing in X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Pixel spacing in X</Literal>
@@ -6898,6 +6727,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T21:58:29Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-y</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pixel spacing in Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-y</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Pixel spacing in Y</Literal>
@@ -6906,6 +6740,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#refocused-gradient-echo-sequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refocused gradient echo sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#repetition-time</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Repetition time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6943,6 +6782,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Single shot spin echo sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-orientation-at-acquisition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slice orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-orientation-at-acquisition</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">slice orientation at acquisition</Literal>
@@ -6963,6 +6807,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T22:01:00Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-spacing</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slice spacing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-spacing</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Slice spacing</Literal>
@@ -6976,6 +6825,11 @@
         <AnnotationProperty abbreviatedIRI="terms:date"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-thickness</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T21:58:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-thickness</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slice thickness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6994,12 +6848,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast</IRI>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rho-c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrast</IRI>
+        <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Spin density contrast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7066,6 +6920,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#velocity-encoded-angio-sequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Velocity encoded angio sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://open.vocab.org/terms/fileSize</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">File size</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7149,11 +7008,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ERO_0001982</AbbreviatedIRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pacific Islander</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:ERO_0001983</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African</Literal>
     </AnnotationAssertion>
@@ -7196,6 +7050,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:OBI_0000167</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Electronic case report form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>obo:OBI_0100026</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Species</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7251,6 +7110,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:PATO_0000384</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/PATO_0000384</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <AbbreviatedIRI>uberon:ABBREVIATION</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Abbr.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -8083,6 +7947,11 @@
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">DCMI Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:FileFormat</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">File format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>terms:FileFormat</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">file format of the object like SVG, Markdown etc</Literal>
@@ -8108,6 +7977,11 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">License</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:created</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Creation date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>terms:created</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">creation date</Literal>
@@ -8118,14 +7992,34 @@
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Date created</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:creator</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Uploader</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:creator</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the person who uploaded the dataset is also the creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:creator</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Creator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:date</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:date</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Description</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8148,9 +8042,19 @@
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Format</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:identifier</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">selfUrl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:identifier</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">selfUrl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:modified</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Modificaton date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8163,14 +8067,55 @@
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Date Modified</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:publisher</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Publisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>terms:rightsHolder</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:rightsHolder</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">owner of the dataset, usually the uploader</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:rightsHolder</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rightsHolder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">URL to a specific resource, eg License legal text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:source</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:title</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">title of the resource, eg title of the publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>terms:title</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>terms:type</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dcmi type of the object</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dcmi type of the object
+default for object: dataset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:type</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Type</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">DCMI Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8181,6 +8126,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.org/sig/ont/fma/fma62955</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anatomical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>http://purl.org/stuff/rev#rating</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8283,9 +8233,34 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T21:02:49Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exact synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>http://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">GNU GPL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
+        <IRI>http://gnu.org/licenses/gpl-3.0.html</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">GNU General Public License</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
+        <IRI>http://www.gnu.org/licenses/gpl-3.0.rdf</IRI>
+        <IRI>http://www.gnu.org/graphics/gplv3-127x51.png</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -9469,17 +9444,7 @@ cc licensed by  D M Higgins</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000024</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">object_property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000025</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">relational_property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <AnnotationProperty IRI="#00000376"/>
         <IRI>#00000028</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Anatomical region</Literal>
     </AnnotationAssertion>
@@ -9499,7 +9464,7 @@ cc licensed by  D M Higgins</Literal>
         <IRI>http://purl.org/sig/ont/fma/fma62955</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <AnnotationProperty IRI="#00000376"/>
         <IRI>#00000029</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gender</Literal>
     </AnnotationAssertion>
@@ -9514,7 +9479,7 @@ cc licensed by  D M Higgins</Literal>
         <AbbreviatedIRI>obo:PATO_0000047</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <AnnotationProperty IRI="#00000376"/>
         <IRI>#00000030</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">License</Literal>
     </AnnotationAssertion>
@@ -9529,9 +9494,9 @@ cc licensed by  D M Higgins</Literal>
         <AbbreviatedIRI>terms:LicenseDocument</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <AnnotationProperty IRI="#00000376"/>
         <IRI>#00000031</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Modality</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9544,29 +9509,14 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">has_acronym_used_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000034</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Uploader</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000034</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000034</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">has_uploader</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#00000034</IRI>
-        <AbbreviatedIRI>terms:creator</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000038</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#00000038</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">used to annotate the modalites with a the abbreviation DICOM uses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9586,127 +9536,12 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000041</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CALIBRATION</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">CALIBRATION</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000041</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calibration sequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000104</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000104</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:45Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000104</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mha</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000105</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000105</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:56Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000105</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">raw</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000106</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000106</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:50Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000106</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mhd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000107</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000107</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:58Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000107</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000108</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000108</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:41Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000108</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nii</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000110</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000110</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">xml</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000113</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000113</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-13T08:21:26Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000113</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000114</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000114</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:01Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000114</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">svg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
@@ -9744,39 +9579,9 @@ cc licensed by  D M Higgins</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vCard</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000118</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000118</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:24Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000118</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">md</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000119</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">is_a</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000120</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000120</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:07Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000120</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dcm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -9799,124 +9604,9 @@ cc licensed by  D M Higgins</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markdown</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000125</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000125</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:57:18Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000125</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">img</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000126</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000126</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:11Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000126</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dicom</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000129</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000129</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:19Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000129</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pdf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000130</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000130</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:00Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000130</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hdr</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000137</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000137</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">odm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000142</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">is_extension_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000144</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000144</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:45Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000144</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">h5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000145</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000145</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:27:29Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000145</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hdf5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000146</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000146</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-12T20:26:30Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000146</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mdown</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -9995,21 +9685,6 @@ cc licensed by  D M Higgins</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000170</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000170</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-26T08:44:02Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000170</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gender</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000200</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
@@ -10020,26 +9695,6 @@ cc licensed by  D M Higgins</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000201</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000201</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-23T17:57:34Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000201</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">test</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000205</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MRI contrast</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000205</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
@@ -10047,6 +9702,11 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="terms:date"/>
         <IRI>#00000205</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T06:59:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000205</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MRI contrast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10060,41 +9720,6 @@ cc licensed by  D M Higgins</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000206</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000206</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T07:27:17Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000206</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">user_data_property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000207</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <IRI>#00000207</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T07:28:10Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000207</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">object_data_property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000209</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">File</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000209</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
@@ -10102,6 +9727,11 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="terms:date"/>
         <IRI>#00000209</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-25T21:48:04Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000209</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">File</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10119,6 +9749,11 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-26T11:26:01Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000217</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VSDID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000217</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the id of the object or file or group or user (integer). not to mix with the selfURL which is the identifier</Literal>
@@ -10131,7 +9766,7 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000220</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SE</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">SE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -10261,7 +9896,7 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000229</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ass. Prof.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ass. Prof.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10291,42 +9926,17 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#00000233"/>
         <IRI>#00000233</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">describes the type of Data the dataset is of.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">describes the type of Data the dataset is of. values from &quot;Data&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000233</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dataset type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000233</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dataset Type</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000234</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Owner</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#00000234</IRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
-        <IRI>#00000234</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T13:57:37Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#00000234</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">has_owner</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#00000234</IRI>
-        <AbbreviatedIRI>terms:rightsHolder</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000235</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Related object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -10337,6 +9947,11 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
         <IRI>#00000235</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T14:00:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000235</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Related object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10359,6 +9974,11 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T14:09:29Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000236</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000236</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">describes the ethnic group of the dataset</Literal>
@@ -10379,6 +9999,11 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T14:14:21Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000237</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Object type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000237</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the object type used in the database (raw, seg, etc)</Literal>
@@ -10387,6 +10012,11 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000237</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#00000239</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -10414,6 +10044,11 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T19:51:21Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000240</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000240</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">age in days</Literal>
@@ -10424,11 +10059,6 @@ cc licensed by  D M Higgins</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Age (d)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000241</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MRI Sequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000241</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
@@ -10437,6 +10067,11 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
         <IRI>#00000241</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T20:19:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000241</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MRI Sequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10571,7 +10206,7 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000248</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">MS-NC-NoReD-FF</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MS-NC-NoReD-FF</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -10596,7 +10231,7 @@ cc licensed by  D M Higgins</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000249</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">ISLES license</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ISLES license</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -12518,6 +12153,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blood Oxygen Level Dependent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#00000331</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">T1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000331</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
@@ -12526,11 +12166,6 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
         <IRI>#00000331</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T17:30:37Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#00000331</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">T1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12760,7 +12395,7 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#00000343</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T2-TSE</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">T2-TSE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -12788,6 +12423,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T19:06:51Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000344</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dataset Size in MB</Literal>
@@ -12813,14 +12453,14 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T19:14:18Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000345</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Method description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000345</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Segmentation method description</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000346</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Handedness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -12831,6 +12471,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
         <IRI>#00000346</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T19:15:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000346</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Handedness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12858,11 +12503,6 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Image segmentation method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#00000351</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Segmentation method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#00000351</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
@@ -12871,6 +12511,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
         <IRI>#00000351</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T20:02:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000351</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Segmentation method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13239,6 +12884,386 @@ fast breath-hold sequence used in the abdomen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000376</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000376</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T06:53:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#00000376</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the label used by the framework</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000376</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DisplayLabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000377</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000377</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T07:51:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000377</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Number of files</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000377</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">File count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000378</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000378</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T08:10:16Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000378</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000378</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_ethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#00000378</IRI>
+        <IRI>http://bioontology.org/projects/ontologies/birnlex#birnlex_3016</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000379</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000379</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T08:16:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000379</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pacific Islander</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000380</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000380</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T08:49:05Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000380</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Study Definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000380</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_clinical_study_definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000381</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000381</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:24:47Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000381</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Subject Key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000381</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subject key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000382</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000382</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:25:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000382</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">StudyOID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000382</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study OID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000383</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000383</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:27:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000383</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Study Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000383</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000384</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000384</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:27:39Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000384</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Study Description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000384</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000385</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000385</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:28:00Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000385</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Protocol Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000385</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protocol name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000386</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:28:28Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Meta Data Version OID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000386</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meta data version OID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000387</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000387</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T09:29:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000387</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Meta Data Version Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000387</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meta data version name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000388</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000388</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:33:10Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000388</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vector count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000388</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vector count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000389</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000389</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:35:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000389</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MinX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000389</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Min X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000390</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000390</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:35:48Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000390</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MaxX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000390</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Max X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000391</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000391</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:36:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000391</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MinY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000391</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Min Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000392</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000392</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:36:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000392</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MaxY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000392</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Max Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000393</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000393</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:36:38Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000393</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MinZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000393</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Min Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#00000394</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#00000394</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T10:37:17Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <IRI>#00000394</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MaxZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#00000394</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Max Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>http://www.w3.org/ns/odrl/2/Policy</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
@@ -13273,14 +13298,9 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">User</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnnotationProperty IRI="#00000376"/>
         <AbbreviatedIRI>foaf:age</AbbreviatedIRI>
-        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
-        <AbbreviatedIRI>foaf:age</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T14:24:05Z</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13290,7 +13310,12 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>foaf:age</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Age</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age (y)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>foaf:firstName</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Firstname</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13303,9 +13328,19 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">honorific Prefix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>foaf:lastName</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lastname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>foaf:lastName</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lastname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>foaf:mbox</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Email</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13323,6 +13358,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-26T11:30:24Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>foaf:nick</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Username</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>foaf:nick</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Username</Literal>
@@ -13333,9 +13373,24 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty IRI="#00000376"/>
         <AbbreviatedIRI>foaf:title</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>foaf:title</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Salutation, professional title like Mr, Ms, PhD, MS etc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:title</AbbreviatedIRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anrede Titel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:title</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Salutation Title</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13358,6 +13413,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">11.2.2013</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <IRI>https://www.smir.ch/objects/13</IRI>
+        <IRI>https://www.smir.ch/users/5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
         <IRI>https://www.smir.ch/objects/13</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">This is the object description</Literal>
@@ -13376,6 +13436,11 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <IRI>https://www.smir.ch/objects/13</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">12.02.2014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
+        <IRI>https://www.smir.ch/objects/13</IRI>
+        <IRI>https://www.smir.ch/users/5</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:type"/>
@@ -13425,6 +13490,10 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AbbreviatedIRI>rdfs:Literal</AbbreviatedIRI>
     </AnnotationPropertyRange>
     <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
+        <AbbreviatedIRI>foaf:Person</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
         <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
     </AnnotationPropertyRange>
@@ -13439,6 +13508,10 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationPropertyRange>
         <AnnotationProperty IRI="#00000236"/>
         <AbbreviatedIRI>obo:ERO_0001972</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>rdfs:Literal</AbbreviatedIRI>
     </AnnotationPropertyRange>
     <AnnotationPropertyRange>
         <AnnotationProperty abbreviatedIRI="foaf:title"/>
@@ -13457,6 +13530,10 @@ fast breath-hold sequence used in the abdomen</Literal>
         <IRI>#00000005</IRI>
     </AnnotationPropertyDomain>
     <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
+        <IRI>#00000004</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
         <IRI>#00000005</IRI>
     </AnnotationPropertyDomain>
@@ -13466,7 +13543,7 @@ fast breath-hold sequence used in the abdomen</Literal>
     </AnnotationPropertyDomain>
     <AnnotationPropertyDomain>
         <AnnotationProperty IRI="#00000233"/>
-        <IRI>#00000005</IRI>
+        <IRI>http://semanticscience.org/resource/SIO_000776</IRI>
     </AnnotationPropertyDomain>
     <AnnotationPropertyDomain>
         <AnnotationProperty IRI="#00000236"/>
