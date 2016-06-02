@@ -87,7 +87,7 @@ http://www.virtualskeleton.ch/MIAF#00000381,Data property,Subject Key,SubjectKey
 ,Data property,Protocol Name,Protocol Name,string ,None.,,,,,,,,,,,,,,,,,,,,,
 ,Data property,Meta Data Version OID,Meta Data Version OID,string ,None.,,,,,,,,,,,,,,,,,,,,,
 ,Data property,Meta Data Version Name,Meta Data Version Name,string ,,,,,,,,,,,,,,,,,,,,,,
-,Data property,Point and vector object count,VectorCount,integer ,None.,,,http://geobrain.laits.gmu.edu/ontology/2004/03/fgdc-RS_extension-organization.owl#ptvctcnt,,,,,,,,,,,,,,,,,,
+,Data property,VectorCount,VectorCount,integer ,None.,,,http://geobrain.laits.gmu.edu/ontology/2004/03/fgdc-RS_extension-organization.owl#ptvctcnt,,,,,,,,,,,,,,,,,,
 ,Data property,Min X,MinX,decimal number ,None.,,,,,,,,,,,,,,,,,,,,,
 ,Data property,Max X,MaxX,decimal number ,None.,,,,,,,,,,,,,,,,,,,,,
 ,Data property,Min Y,MinY,decimal number ,None.,,,,,,,,,,,,,,,,,,,,,
