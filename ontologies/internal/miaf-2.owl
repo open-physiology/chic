@@ -50,10 +50,10 @@
         <NamedIndividual IRI="#00000269"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-stimulated-echoes-sequence"/>
+        <NamedIndividual IRI="#00000257"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000257"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-stimulated-echoes-sequence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000245"/>
@@ -65,10 +65,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71366"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71354"/>
+        <NamedIndividual IRI="#00000354"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000354"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71354"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71378"/>
@@ -101,28 +101,28 @@
         <NamedIndividual IRI="#00000342"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000330"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="#00000236"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
+        <NamedIndividual IRI="#00000330"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71353"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Microscopy"/>
+        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000258"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Microscopy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000379"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71353"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000246"/>
@@ -164,10 +164,10 @@
         <NamedIndividual abbreviatedIRI="obo:ERO_0001980"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39452"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39452"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit#Year365Day"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/odbc-by1.0"/>
@@ -179,22 +179,22 @@
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nc4.0"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000279"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#spin-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71344"/>
+        <NamedIndividual IRI="#00000279"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000267"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-sa4.0"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71344"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000255"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-sa4.0"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71368"/>
@@ -221,10 +221,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39388"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/dc/dcmitype/00000133"/>
+        <ObjectProperty IRI="#00000205"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000205"/>
+        <Class IRI="http://purl.org/dc/dcmitype/00000133"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39473"/>
@@ -242,31 +242,31 @@
         <NamedIndividual IRI="#00000352"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:PATO_0000047"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000340"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#velocity-encoded-cine"/>
+        <Class abbreviatedIRI="obo:PATO_0000047"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000268"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#velocity-encoded-cine"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#00000256"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000244"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71343"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71343"/>
+        <NamedIndividual IRI="#00000244"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71379"/>
@@ -308,10 +308,10 @@
         <Class abbreviatedIRI="obo:OBI_0000083"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fast-spoiled-gradient-recalled-acquisition-in-the-steady-state"/>
+        <Class IRI="#t1-weighted-image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#t1-weighted-image"/>
+        <Class IRI="#fast-spoiled-gradient-recalled-acquisition-in-the-steady-state"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:format"/>
@@ -347,10 +347,10 @@
         <NamedIndividual IRI="#00000289"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000277"/>
+        <DataProperty IRI="#00000217"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#00000217"/>
+        <NamedIndividual IRI="#00000277"/>
     </Declaration>
     <Declaration>
         <Class IRI="#plain_subject"/>
@@ -362,10 +362,10 @@
         <AnnotationProperty abbreviatedIRI="foaf:page"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/files/1"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nd4.0"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nd4.0"/>
+        <NamedIndividual IRI="https://www.smir.ch/files/1"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71350"/>
@@ -389,10 +389,10 @@
         <NamedIndividual IRI="#00000265"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#00000038"/>
+        <NamedIndividual IRI="#00000253"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000253"/>
+        <AnnotationProperty IRI="#00000038"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Diffuse_optical_imaging"/>
@@ -410,16 +410,19 @@
         <Class IRI="#gradient-recalled-acquisition-in-the-steady-state"/>
     </Declaration>
     <Declaration>
+        <DataProperty abbreviatedIRI="obo:PATO_0000119"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="https://www.smir.ch/files/2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000161"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000040"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71373"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71373"/>
+        <Class IRI="#00000040"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71361"/>
@@ -458,16 +461,19 @@
         <NamedIndividual IRI="#00000299"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:subject"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Tomography"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
+        <DataProperty abbreviatedIRI="foaf:status"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="foaf:status"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/dc/dcmitype/00000138"/>
@@ -527,10 +533,10 @@
         <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spoiled-gradient-echo-sequence"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69168"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69168"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
@@ -545,25 +551,25 @@
         <Class IRI="#magnetization-prepared-rapid-gradient-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/57427004"/>
+        <Class IRI="#spoiled-gradient-recalled-acquisition-in-steady-state"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#spoiled-gradient-recalled-acquisition-in-steady-state"/>
+        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/57427004"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000276"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#refocused-gradient-echo-sequence"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#00000264"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000252"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#refocused-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#00000252"/>
     </Declaration>
     <Declaration>
         <Class IRI="#segmentation_image"/>
@@ -578,10 +584,10 @@
         <NamedIndividual IRI="#00000338"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000326"/>
+        <Class abbreviatedIRI="dcmitype:MovingImage"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dcmitype:MovingImage"/>
+        <NamedIndividual IRI="#00000326"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000314"/>
@@ -596,10 +602,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71370"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spectroscopy-sequence"/>
+        <Class IRI="#Bachelor_of_Science"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bachelor_of_Science"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spectroscopy-sequence"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#00000390"/>
@@ -716,10 +722,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39392"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000117"/>
+        <Class IRI="#00000347"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000347"/>
+        <Class IRI="#00000117"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000226"/>
@@ -737,13 +743,13 @@
         <Class abbreviatedIRI="edamontology2:format_3508"/>
     </Declaration>
     <Declaration>
-        <Datatype abbreviatedIRI="xsd:date"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#X-ray_computed_tomography"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000313"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Ultrasound"/>
@@ -770,16 +776,16 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71371"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:format_3604"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113644"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000225"/>
+        <Class abbreviatedIRI="edamontology2:format_3604"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39381"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#00000225"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
@@ -791,10 +797,10 @@
         <Class IRI="#genomic_series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Elastography"/>
+        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/337915000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/337915000"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Elastography"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#perfusion-sequence"/>
@@ -842,10 +848,10 @@
         <Class IRI="#plain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#DNA_sequence"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3066"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3066"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#DNA_sequence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000335"/>
@@ -857,10 +863,10 @@
         <NamedIndividual IRI="#00000323"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#t2-weighted-image"/>
+        <NamedIndividual IRI="#00000311"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000311"/>
+        <Class IRI="#t2-weighted-image"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3068"/>
@@ -869,10 +875,10 @@
         <Class IRI="#fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
+        <Class IRI="#turbo-short-tau-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#turbo-short-tau-inversion-recovery"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000230"/>
@@ -941,10 +947,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000209"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
+        <ObjectProperty IRI="#00000209"/>
     </Declaration>
     <Declaration>
         <Class IRI="#00000355"/>
@@ -971,10 +977,10 @@
         <Class IRI="#gradient-echo-and-spin-echo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/objects/23"/>
+        <NamedIndividual IRI="#00000320"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000320"/>
+        <NamedIndividual IRI="https://www.smir.ch/objects/23"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nc-sa4.0"/>
@@ -1007,10 +1013,10 @@
         <Class IRI="http://purl.org/dc/dcmitype/00000109"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#00000221"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
+        <Class IRI="#00000221"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#00000237"/>
@@ -1034,10 +1040,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25354"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-spoiled-gradient-echo-sequence"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3065"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3065"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-gradient-echo-sequence"/>
@@ -1058,10 +1064,10 @@
         <DataProperty IRI="#00000386"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#point-resolved-spatial-selection"/>
+        <Class IRI="#subject"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#subject"/>
+        <Class IRI="#point-resolved-spatial-selection"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
@@ -1085,10 +1091,10 @@
         <Class IRI="#fast-field-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Functional_near-infrared_spectroscopy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Functional_near-infrared_spectroscopy"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#00000033"/>
@@ -1119,6 +1125,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/publicdomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1854f430_7515_4e00_a5d3_385e854f70a8"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
@@ -1163,10 +1172,10 @@
         <ObjectProperty IRI="#00000031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluoroscopy"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optoacoustic_imaging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optoacoustic_imaging"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluoroscopy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#bi-dimensional-chemical-shift-imaging"/>
@@ -1181,10 +1190,10 @@
         <DataProperty IRI="#00000385"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#00000240"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
+        <DataProperty IRI="#00000240"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
@@ -1211,10 +1220,10 @@
         <Class IRI="#00000228"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39390"/>
+        <Class IRI="#time-of-flight-gradient-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#time-of-flight-gradient-echo"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39390"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:type"/>
@@ -1232,16 +1241,16 @@
         <ObjectProperty IRI="#00000380"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/odbl1.0"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="foaf:Group"/>
+        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000319"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Group"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000307"/>
@@ -1301,13 +1310,13 @@
         <Class IRI="#fast-spin-echo---short-tau-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#00000392"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Calcium_imaging"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <DataProperty IRI="#00000392"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Linear_tomography"/>
@@ -1361,6 +1370,9 @@
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-y"/>
     </Declaration>
     <Declaration>
+        <DataProperty abbreviatedIRI="obo:PATO_0000128"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39327"/>
     </Declaration>
     <Declaration>
@@ -1373,10 +1385,10 @@
         <Class IRI="#pro"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#turbo-field-echo"/>
+        <ObjectProperty IRI="#00000029"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#00000029"/>
+        <Class IRI="#turbo-field-echo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#00000235"/>
@@ -1391,19 +1403,19 @@
         <NamedIndividual IRI="#00000285"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
+        <NamedIndividual IRI="#00000273"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000273"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#velocity-encoded-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
     </Declaration>
     <Declaration>
         <Class IRI="#statistical_model"/>
@@ -1415,10 +1427,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39449"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#contrast-enhanced-fast"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#imaging-frequency"/>
+        <Class IRI="#contrast-enhanced-fast"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71349"/>
@@ -1430,10 +1442,10 @@
         <NamedIndividual IRI="#00000298"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000286"/>
+        <Class abbreviatedIRI="edamontology2:data_0006"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:data_0006"/>
+        <NamedIndividual IRI="#00000286"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/MIT1.0"/>
@@ -1469,10 +1481,10 @@
         <NamedIndividual IRI="#00000283"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
+        <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#00000344"/>
@@ -1481,10 +1493,10 @@
         <NamedIndividual IRI="#00000271"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:title"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-stimulated-echoes-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-stimulated-echoes-sequence"/>
+        <AnnotationProperty abbreviatedIRI="foaf:title"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#H1-chemical-shift-imaging-spectroscopy-sequence"/>
@@ -1493,10 +1505,10 @@
         <NamedIndividual IRI="#00000295"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#00000041"/>
+        <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
+        <NamedIndividual IRI="#00000041"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:created"/>
@@ -1565,13 +1577,13 @@
         <Class abbreviatedIRI="edamontology2:format_2330"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#true-inversion-recovery"/>
+        <Class IRI="#double-echo-steady-state"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Molecular_imaging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#double-echo-steady-state"/>
+        <Class IRI="#true-inversion-recovery"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000281"/>
@@ -1616,10 +1628,10 @@
         <NamedIndividual IRI="#00000270"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="rdf:type"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-MR-sequence"/>
@@ -1640,10 +1652,10 @@
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#echo-time"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#BioImaging_Modalities"/>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:format"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#BioImaging_Modalities"/>
     </Declaration>
     <Declaration>
         <Class IRI="#study"/>
@@ -1664,16 +1676,16 @@
         <Class IRI="#short-tau-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-sequence"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Diffusion-weighted_imaging"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#00000389"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71359"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#00000389"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432"/>
@@ -1694,10 +1706,10 @@
         <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/87683000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#half-fourier-acquisition-single-shot-turbo-spin-echo"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-spacing"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-spacing"/>
+        <Class IRI="#half-fourier-acquisition-single-shot-turbo-spin-echo"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="edamontology2:data_1188"/>
@@ -1715,10 +1727,10 @@
         <NamedIndividual IRI="#00000292"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
+        <Class abbreviatedIRI="edamontology2:format_2333"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:format_2333"/>
+        <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00000280"/>
@@ -3003,6 +3015,10 @@
     <SubClassOf>
         <Class IRI="#00000375"/>
         <Class IRI="#00000347"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1854f430_7515_4e00_a5d3_385e854f70a8"/>
+        <Class IRI="#00000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
@@ -7072,6 +7088,36 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gender</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">height in Meter (m)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Height (m)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#00000376"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">weight in kilogram (kg)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weight (kg)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <AbbreviatedIRI>obo:PATO_0000383</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">F</Literal>
@@ -8095,6 +8141,12 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>terms:source</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>terms:subject</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.
+we are using it with anatomical region, subject key, dataset type and data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11490,7 +11542,7 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000303</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Generic name for (the most common form of) gradient echo; gradient-recalled echo is measured after excitation, before gradient spoiling of the SSFP-echo. Not RF spoiled. Gradient area within each TR interval must be the same, TR ≤ T2, and RF excitation pulses must be phase coherent (or sign-alternated). So-called S-plus (forward gradient waveform) sequence. Also known as FFE, FISP, GRASS</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Generic name for (the most common form of) gradient echo; gradient-recalled echo is measured after excitation, before gradient spoiling of the SSFP-echo. Not RF spoiled. Gradient area within each TR interval must be the same, TR lessquealthan T2, and RF excitation pulses must be phase coherent (or sign-alternated). So-called S-plus (forward gradient waveform) sequence. Also known as FFE, FISP, GRASS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11565,7 +11617,7 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000306</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Generic name for balanced gradient echo sequence in which both SSFP-FID and SSFP-echo signals are measured. The integral of the gradient area in each TR interval must be the zero, or banding in images results from overlapping (and interference) of the SSFP-FID and SSFP-echo. Additional requirements include TR ≤ T2, and RF excitation pulses must be phase coherent (or sign-alternated). Contrast weighting is according to the ratio T2/T1. Also known as BFFE, FIESTA, TrueFISP</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Generic name for balanced gradient echo sequence in which both SSFP-FID and SSFP-echo signals are measured. The integral of the gradient area in each TR interval must be the zero, or banding in images results from overlapping (and interference) of the SSFP-FID and SSFP-echo. Additional requirements include TR lessquealthan T2, and RF excitation pulses must be phase coherent (or sign-alternated). Contrast weighting is according to the ratio T2/T1. Also known as BFFE, FIESTA, TrueFISP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12425,17 +12477,17 @@ fast breath-hold sequence used in the abdomen</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#00000376"/>
         <IRI>#00000344</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Size</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object size</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#00000344</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dataset Size in MB</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dataset (object) Size in Byte</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#00000344</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Size (MB)</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object Size</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -13264,6 +13316,21 @@ fast breath-hold sequence used in the abdomen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#1854f430_7515_4e00_a5d3_385e854f70a8</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#1854f430_7515_4e00_a5d3_385e854f70a8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-06T11:36:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1854f430_7515_4e00_a5d3_385e854f70a8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>http://www.w3.org/ns/odrl/2/Policy</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
     </AnnotationAssertion>
@@ -13487,6 +13554,10 @@ fast breath-hold sequence used in the abdomen</Literal>
     </AnnotationPropertyRange>
     <AnnotationPropertyRange>
         <AnnotationProperty abbreviatedIRI="terms:format"/>
+        <AbbreviatedIRI>rdfs:Literal</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
         <AbbreviatedIRI>rdfs:Literal</AbbreviatedIRI>
     </AnnotationPropertyRange>
     <AnnotationPropertyRange>
