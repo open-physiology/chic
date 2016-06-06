@@ -62,13 +62,7 @@
         <ObjectProperty IRI="#7bbe3343_d151_4d63_bfb5_71bb3404ce88"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#surface_model"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71378"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#segmentation_image"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#Meter"/>
@@ -152,6 +146,9 @@
         <NamedIndividual abbreviatedIRI="obo:ERO_0001980"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ba551804_4c60_45d2_bfeb_4dadb167ee17"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#three-dimensional-phase-contrast-angiography"/>
     </Declaration>
     <Declaration>
@@ -179,9 +176,6 @@
         <NamedIndividual IRI="#e2b9c39c_5bc7_46b4_bce2_ac4f0e448ea1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#genomic_sample"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#522b1609_ed1c_4273_9375_37f7e55382d1"/>
     </Declaration>
     <Declaration>
@@ -206,13 +200,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71368"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#1e30ef35_685e_4566_84f7_e060372aac09"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#49856bfb_200e_4975_957e_b6476efe8147"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-low-angle-shot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1e30ef35_685e_4566_84f7_e060372aac09"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/1480007"/>
@@ -248,10 +242,13 @@
         <Class IRI="#rapid-acquisition-with-rapid-enhancement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#stimulated-echo-acquisition-mode"/>
+        <Class IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#986c7d0f_9155_48d2_945a_09f71b5dbcf0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stimulated-echo-acquisition-mode"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
@@ -335,9 +332,6 @@
         <Class IRI="#8b9e0fb1_a6f0_4078_bee9_7a3a804445f5"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#plain_subject"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71374"/>
     </Declaration>
     <Declaration>
@@ -395,13 +389,13 @@
         <DataProperty IRI="#07eee37f_595e_4b4b_842a_6e9336e648f0"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#1441c504_01f0_4339_9124_8d11054fee83"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#cc1b019f_89f2_40a0_9a0a_e7c1eeb142d1"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#aa335ac2_86cb_4754_b627_14ed4ead6407"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#1441c504_01f0_4339_9124_8d11054fee83"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="obo:PATO_0000119"/>
@@ -446,10 +440,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#time-of-flight-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
+        <AnnotationProperty abbreviatedIRI="terms:subject"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:subject"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Tomography"/>
@@ -512,6 +506,9 @@
         <NamedIndividual IRI="#58815fb5_ab01_4929_ae0f_7bd133f71003"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <Declaration>
@@ -521,10 +518,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#7e6f9d59_6d9e_44f0_abb3_a108fde3d00d"/>
+        <Class IRI="#cd5953ee_fc17_4168_a9c7_d3729b41d04d"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cd5953ee_fc17_4168_a9c7_d3729b41d04d"/>
+        <Class IRI="#7e6f9d59_6d9e_44f0_abb3_a108fde3d00d"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#be04f431_e75e_463d_b5cd_fd6ffc2381d5"/>
@@ -534,9 +531,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3a2589d9_5318_40f6_ab1b_33503fa29ddc"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#statistical_model"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#SecondTime"/>
@@ -552,6 +546,12 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="dcmitype:MovingImage"/>
@@ -659,10 +659,10 @@
         <NamedIndividual IRI="#246b5b52_8e43_4003_8241_0776122984ae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#f2ec2d93_2a06_459f_b2f5_34583069a9af"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39392"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39392"/>
+        <Class IRI="#f2ec2d93_2a06_459f_b2f5_34583069a9af"/>
     </Declaration>
     <Declaration>
         <Class IRI="#046367a3_bd96_4789_bdf3_bab17bc275c9"/>
@@ -722,10 +722,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39381"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#modified-driven-equilibrium-fourier-transform"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
+        <Class IRI="#modified-driven-equilibrium-fourier-transform"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#0cf408f2_68d3_4583_818a_525194f8db00"/>
@@ -737,13 +737,10 @@
         <Class IRI="#fast-imaging-employing-steady-state-acquisition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#study"/>
+        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/337915000"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Elastography"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/337915000"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#perfusion-sequence"/>
@@ -800,10 +797,10 @@
         <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
+        <NamedIndividual IRI="#e45b0515_e2e0_4ab2_8960_3ac4810783b5"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#e45b0515_e2e0_4ab2_8960_3ac4810783b5"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#da9f9d0f_91b8_4e62_b763_ff25c437add4"/>
@@ -824,10 +821,10 @@
         <NamedIndividual IRI="#6625b8ad_1ac9_4bdb_8067_67141a5ccce5"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#bi-dimensional-phase-contrast-angiography"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
+        <Class IRI="#bi-dimensional-phase-contrast-angiography"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="terms:DCMIType"/>
@@ -848,6 +845,9 @@
         <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#474b521d_9022_4b42_8645_3142aac8f3e2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#inversion-recovery-fast-spin-echo"/>
     </Declaration>
     <Declaration>
@@ -863,13 +863,16 @@
         <NamedIndividual abbreviatedIRI="obo:ERO_0001981"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c56d337f_b0af_4860_92c6_9b134863a5d8"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#a916f92a_5026_46a6_aeb1_3acb9a06c8b2"/>
@@ -878,10 +881,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39384"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3064"/>
+        <NamedIndividual IRI="#08105d92_7b5f_4175_8e12_0d7f4b9fc224"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#08105d92_7b5f_4175_8e12_0d7f4b9fc224"/>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3064"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography"/>
@@ -962,6 +965,9 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#time-resolved-imaging-on-contrast-kinetics"/>
     </Declaration>
     <Declaration>
@@ -1022,16 +1028,13 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#contrast-agent-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#genomic_series"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#d3a8ca45_240c_4bbc_b9f0_4f421f56aa7f"/>
+        <NamedIndividual IRI="#84cd03ab_1d67_47fd_87aa_b1803691e10d"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="foaf:title"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#84cd03ab_1d67_47fd_87aa_b1803691e10d"/>
+        <NamedIndividual IRI="#d3a8ca45_240c_4bbc_b9f0_4f421f56aa7f"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Functional_near-infrared_spectroscopy"/>
@@ -1040,10 +1043,10 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#592b93cd_da6c_4e16_a31a_9704f30114c2"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
+        <Class IRI="#592b93cd_da6c_4e16_a31a_9704f30114c2"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:value"/>
@@ -1061,10 +1064,10 @@
         <Class IRI="#47587aeb_916b_4c31_97c0_9366151dfba8"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dcmitype:StillImage"/>
+        <DataProperty IRI="#7e69e877_dc06_4bcc_b839_ffb150e589fa"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#7e69e877_dc06_4bcc_b839_ffb150e589fa"/>
+        <Class abbreviatedIRI="dcmitype:StillImage"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#e226f542_a257_419e_8a7a_f894a4d5c4d7"/>
@@ -1074,9 +1077,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#constructive-interference-in-the-steady-state"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#clinical_study_definition"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#e3d5f1d7_b48a_4b21_bdf9_80bfc8b969ce"/>
@@ -1094,9 +1094,6 @@
         <AnnotationProperty abbreviatedIRI="terms:title"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#raw_image"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#b89cfca5_84db_478e_9713_efc8d0b5d181"/>
     </Declaration>
     <Declaration>
@@ -1106,10 +1103,10 @@
         <NamedIndividual IRI="#e5b46675_63dd_4e16_b7cf_b3be39cecf39"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fast-spin-echo"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
+        <Class IRI="#fast-spin-echo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#a1680ab5_8177_4b3c_bebf_8d153cca854c"/>
@@ -1127,10 +1124,10 @@
         <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/23088002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#steady-state-free-precession"/>
+        <Class IRI="#35b5be3d_4cb7_4598_bcf1_80c3b49d93f3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#35b5be3d_4cb7_4598_bcf1_80c3b49d93f3"/>
+        <Class IRI="#steady-state-free-precession"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#dcaa3c1a_22a8_4226_a61d_9fe78eff4990"/>
@@ -1158,6 +1155,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#hybrid-gradient-echo-and-spin-echo-sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cc9df72c_2470_42b9_8301_7ae1f516475d"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
@@ -1244,10 +1244,10 @@
         <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#slice-orientation-at-acquisition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#tirm-turbo-inversion-recovery-magnitude"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39391"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39391"/>
+        <Class IRI="#tirm-turbo-inversion-recovery-magnitude"/>
     </Declaration>
     <Declaration>
         <Class IRI="#inversion-recovery-utilizing-only-the-magnitude"/>
@@ -1379,10 +1379,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39449"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#b1c2d0a8_18a7_49ce_b2a0_069f262606f2"/>
+        <ObjectProperty IRI="#d57f2d0e_3377_4655_8f84_86473c3f8680"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#d57f2d0e_3377_4655_8f84_86473c3f8680"/>
+        <AnnotationProperty IRI="#b1c2d0a8_18a7_49ce_b2a0_069f262606f2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#d610a707_efa1_450a_8f72_f5755a818a9d"/>
@@ -1392,6 +1392,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#d0828e41_70dd_4267_b486_ef205a6d60ce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6c0e6189_ae45_45cf_a25e_9741b1e64c30"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#39b84d95_dffb_4dca_9628_20b68efb70eb"/>
@@ -1409,10 +1412,10 @@
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/MIT1.0"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#bedb6cc4_bd36_47c8_825f_6d372482ca10"/>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <DataProperty IRI="#bedb6cc4_bd36_47c8_825f_6d372482ca10"/>
     </Declaration>
     <Declaration>
         <Class IRI="#inversion-recoverery-echoplanar-imaging"/>
@@ -1424,10 +1427,10 @@
         <NamedIndividual abbreviatedIRI="obo:PATO_0000384"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#065bc932_ad9d_409b_a608_796086784dfd"/>
+        <Class abbreviatedIRI="edamontology2:format_1915"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:format_1915"/>
+        <NamedIndividual IRI="#065bc932_ad9d_409b_a608_796086784dfd"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#0f98f1eb_8126_4bf6_81eb_41e51385c8e5"/>
@@ -1454,10 +1457,10 @@
         <Class IRI="#e7188c5c_a083_4059_a48f_14f8d4d8d4d0"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
+        <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="foaf:title"/>
@@ -1499,6 +1502,9 @@
         <Class abbreviatedIRI="dcmitype:InteractiveResource"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#d0a7b927_9208_4a75_9a96_b3d67f396344"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluorescence_lifetime_imaging"/>
     </Declaration>
     <Declaration>
@@ -1529,13 +1535,10 @@
         <NamedIndividual IRI="#593db6c1_61b8_4c5a_a97e_2f0d9d158b6e"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#subject"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="foaf:honorificPrefix"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#genomic_platform"/>
+        <Class IRI="#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6"/>
     </Declaration>
     <Declaration>
         <Class IRI="#8e6c6773_d120_433f_9441_3e252583ad93"/>
@@ -1592,6 +1595,9 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#diffusion-sequence"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#6a2e27b3_269c_40ca_8f48_c52ae5078669"/>
     </Declaration>
     <Declaration>
@@ -1604,13 +1610,13 @@
         <Class IRI="#gradient-echo-and-spin-echo"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="rdf:type"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#eb5e345b_fa6e_43e3_a653_b5ea9a2df878"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-MR-sequence"/>
@@ -1670,9 +1676,6 @@
         <Class IRI="#t2-weighted-image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#clinical_study_data"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#fast-imaging-with-steady-state-precession"/>
     </Declaration>
     <Declaration>
@@ -1716,9 +1719,6 @@
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="edamontology2:data_1188"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#plain"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-echo-spin-echo-sequence"/>
@@ -2534,6 +2534,10 @@
         <Class IRI="#8e6c6773_d120_433f_9441_3e252583ad93"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#afc63562_3d69_4ed7_b570_c02de203d194"/>
         <Class abbreviatedIRI="edamontology2:format_2332"/>
     </SubClassOf>
@@ -2542,12 +2546,20 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
         <Class IRI="#8e6c6773_d120_433f_9441_3e252583ad93"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#b89cfca5_84db_478e_9713_efc8d0b5d181"/>
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ba551804_4c60_45d2_bfeb_4dadb167ee17"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#bdc0a920_933e_4dd6_8eb1_0c8411744c10"/>
@@ -2566,16 +2578,16 @@
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#c56d337f_b0af_4860_92c6_9b134863a5d8"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cc9df72c_2470_42b9_8301_7ae1f516475d"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#cd5953ee_fc17_4168_a9c7_d3729b41d04d"/>
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#clinical_study_data"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#clinical_study_definition"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#constructive-interference-in-the-steady-state"/>
@@ -2592,6 +2604,10 @@
     <SubClassOf>
         <Class IRI="#d0828e41_70dd_4267_b486_ef205a6d60ce"/>
         <Class abbreviatedIRI="edamontology2:format_2330"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d0a7b927_9208_4a75_9a96_b3d67f396344"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d26eec67_b1b2_475b_924f_20a4a6d73869"/>
@@ -2686,18 +2702,6 @@
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#genomic_platform"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#genomic_sample"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#genomic_series"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#gradient-echo-and-spin-echo"/>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
@@ -2742,14 +2746,6 @@
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#plain"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#plain_subject"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#point-resolved-spatial-selection"/>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
@@ -2764,14 +2760,6 @@
     <SubClassOf>
         <Class IRI="#rapid-acquisition-with-rapid-enhancement"/>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#raw_image"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#segmentation_image"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#short-tau-inversion-recovery"/>
@@ -2798,28 +2786,12 @@
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#statistical_model"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#steady-state-free-precession"/>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stimulated-echo-acquisition-mode"/>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#study"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#subject"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#surface_model"/>
-        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#t1-weighted-fast-field-echo"/>
@@ -2922,6 +2894,10 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#35b5be3d_4cb7_4598_bcf1_80c3b49d93f3"/>
         <Class abbreviatedIRI="edamontology2:format_2332"/>
     </SubClassOf>
@@ -2930,12 +2906,24 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#426bd982_72b9_42e5_b935_4e79f8ec7731"/>
         <Class IRI="#f2ec2d93_2a06_459f_b2f5_34583069a9af"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#46308101_66d3_4398_be01_40db6ccb730a"/>
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#474b521d_9022_4b42_8645_3142aac8f3e2"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#47587aeb_916b_4c31_97c0_9366151dfba8"/>
@@ -2950,6 +2938,10 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#522b1609_ed1c_4273_9375_37f7e55382d1"/>
         <Class IRI="#f2ec2d93_2a06_459f_b2f5_34583069a9af"/>
     </SubClassOf>
@@ -2958,12 +2950,20 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#5555cd8e_5e1e_4c55_adf8_0a43c5e6ad6f"/>
         <Class IRI="#f2ec2d93_2a06_459f_b2f5_34583069a9af"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#592b93cd_da6c_4e16_a31a_9704f30114c2"/>
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6c0e6189_ae45_45cf_a25e_9741b1e64c30"/>
+        <Class IRI="#00792419_4a06_4de7_8db3_ba7ab0e7fbb7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#6ddb4044_458e_4c8f_a411_fb33ab63f155"/>
@@ -8584,6 +8584,46 @@ default for object: dataset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GSE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicSeries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Data Study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the experiment of the genomic dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the sample of the genomic dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#af8efd6f_3f9e_404c_9b57_3f14b47e013b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#afc63562_3d69_4ed7_b570_c02de203d194</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CDISC ODM XML</Literal>
     </AnnotationAssertion>
@@ -8723,6 +8763,31 @@ default for object: dataset</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">has_modality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a study by its identifier or pseudonym.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#b7594bd1_eb1f_4b7b_8504_4be86855ba9d</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MR sequence acronym</Literal>
@@ -8747,6 +8812,31 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#b89cfca5_84db_478e_9713_efc8d0b5d181</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Region-growing method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#ba551804_4c60_45d2_bfeb_4dadb167ee17</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#ba551804_4c60_45d2_bfeb_4dadb167ee17</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#ba551804_4c60_45d2_bfeb_4dadb167ee17</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ba551804_4c60_45d2_bfeb_4dadb167ee17</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a subject/patient by its identifier or pseudonym.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ba551804_4c60_45d2_bfeb_4dadb167ee17</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subject</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -8912,6 +9002,41 @@ cc licensed by  D M Higgins</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#c49ce334_160d_4502_80d7_fe5db96d2382</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Min Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RAW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/RawImage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <AbbreviatedIRI>edamontology2:data_2968</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#928cadf1_8d82_4177_87c9_51b5b840616e"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RAW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a medical image of type raw.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#c56d337f_b0af_4860_92c6_9b134863a5d8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Raw Image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -9110,6 +9235,31 @@ quence combining two FISP echoes to give strong T 2 -weighting</Literal>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Double Echo Steady-State</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#cc9df72c_2470_42b9_8301_7ae1f516475d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#cc9df72c_2470_42b9_8301_7ae1f516475d</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#cc9df72c_2470_42b9_8301_7ae1f516475d</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/PlainSubject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cc9df72c_2470_42b9_8301_7ae1f516475d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a plain object with subject/patient information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cc9df72c_2470_42b9_8301_7ae1f516475d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plain Subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <IRI>#cd5953ee_fc17_4168_a9c7_d3729b41d04d</IRI>
         <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
@@ -9207,66 +9357,6 @@ fast breath-hold sequence used in the abdomen</Literal>
         <IRI>#5a9dd4d8_5043_4167_bc36_98f1f0da00d9</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#clinical_study_data</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#clinical_study_data</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/ClinicalStudyData</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>#clinical_study_data</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clinical research data</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#clinical_study_data</IRI>
-        <AbbreviatedIRI>obo:OBI_0000083</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#clinical_study_data</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the data of a clinical study.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#clinical_study_data</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical study data</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#clinical_study_definition</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#clinical_study_definition</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/ClinicalStudyDefinition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>#clinical_study_definition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clinical research data definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#clinical_study_definition</IRI>
-        <AbbreviatedIRI>obo:OBI_0000167</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#clinical_study_definition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the definition of clinical study.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#clinical_study_definition</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Study Definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#constructive-interference-in-the-steady-state</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CISS</Literal>
@@ -9315,6 +9405,41 @@ fast breath-hold sequence used in the abdomen</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#d0828e41_70dd_4267_b486_ef205a6d60ce</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vCard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CsData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/ClinicalStudyData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clinical research data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <AbbreviatedIRI>obo:OBI_0000083</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the data of a clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#d0a7b927_9208_4a75_9a96_b3d67f396344</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Study Data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -10183,96 +10308,6 @@ image of FISP.</Literal>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fluid attenuated inversion recovery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#genomic_platform</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#genomic_platform</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicPlatform</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>#genomic_platform</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genomic data platform</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#genomic_platform</IRI>
-        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#genomic_platform</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the platform used to conduct the genomic dataset.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#genomic_platform</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Platform</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#genomic_sample</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#genomic_sample</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicSample</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>#genomic_sample</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genomic data sample</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#genomic_sample</IRI>
-        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#genomic_sample</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Sample</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#genomic_series</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#genomic_series</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicSeries</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>#genomic_series</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Data Study</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#genomic_series</IRI>
-        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#genomic_series</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the experiment of the genomic dataset.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#genomic_series</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the sample of the genomic dataset.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#genomic_series</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Series</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#gradient-echo-and-spin-echo</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GRASE</Literal>
@@ -10393,46 +10428,6 @@ image of FISP.</Literal>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modified Driven Equilibrium Fourier Transform</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#plain</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#plain</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Plain</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#plain</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a plain object without subject/patient information.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#plain</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plain</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#plain_subject</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#plain_subject</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/PlainSubject</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#plain_subject</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a plain object with subject/patient information.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#plain_subject</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plain subject</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#point-resolved-spatial-selection</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PRESS</Literal>
@@ -10471,61 +10466,6 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#rapid-acquisition-with-rapid-enhancement</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rapid Acquisition with Rapid Enhancement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
-        <IRI>#raw_image</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RAW</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#raw_image</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#raw_image</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/RawImage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#raw_image</IRI>
-        <AbbreviatedIRI>edamontology2:data_2968</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#raw_image</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a medical image of type raw.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#raw_image</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Raw Image</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#segmentation_image</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#segmentation_image</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/SegmentationImage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#segmentation_image</IRI>
-        <AbbreviatedIRI>edamontology2:data_2968</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#segmentation_image</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a medical image of type segmentation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#segmentation_image</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Segmentation image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -10593,31 +10533,6 @@ image of FISP.</Literal>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Spoiled Gradient Recalled Acquisition in steady-state</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#statistical_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#statistical_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/StatisticalModel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
-        <IRI>#statistical_model</IRI>
-        <AbbreviatedIRI>obo:OBCS_0000035</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#statistical_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a statistical model.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#statistical_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Statistical model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#steady-state-free-precession</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SSFP</Literal>
@@ -10636,66 +10551,6 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#stimulated-echo-acquisition-mode</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">STimulated Echo Acquisition Mode</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#study</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#study</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Study</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#study</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a study by its identifier or pseudonym.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#study</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#subject</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#subject</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Subject</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#subject</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a subject/patient by its identifier or pseudonym.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#subject</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subject</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <IRI>#surface_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <IRI>#surface_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/SurfaceModel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#surface_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a surface model.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#surface_model</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surface model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -11634,6 +11489,41 @@ image of FISP.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GPL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicPlatform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genomic data platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the platform used to conduct the genomic dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3e98a035_1a79_4af9_a08c_8156c126bf37</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#3fbed1b6_faa6_441b_972f_980179a188a8</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">CBF</Literal>
     </AnnotationAssertion>
@@ -11909,6 +11799,31 @@ image of FISP.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SURF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/SurfaceModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a surface model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3929b0b4_dfb9_40f8_a0d3_c68a8df7a355</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surface model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#4c6c5a4b_4d9f_43a8_a3e6_2cb8a3ddceac</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">GM-prob</Literal>
     </AnnotationAssertion>
@@ -11946,6 +11861,41 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#4daefb87_ce8e_4064_8b95_df9dc8a84972</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Study description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CsDef</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/ClinicalStudyDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clinical research data definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <AbbreviatedIRI>obo:OBI_0000167</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the definition of clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Study Definition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -12046,6 +11996,36 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#46308101_66d3_4398_be01_40db6ccb730a</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Graph partitioning method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/StatisticalModel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <AbbreviatedIRI>obo:OBCS_0000035</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a statistical model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#474b521d_9022_4b42_8645_3142aac8f3e2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Statistical Model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
@@ -12199,6 +12179,36 @@ image of FISP.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SEG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/SegmentationImage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <AbbreviatedIRI>edamontology2:data_2968</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a medical image of type segmentation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#5d1ff8d5_c3b7_40d9_804e_683f2700e8f6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Segmentation image</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>#5082b8dc_e65a_4e17_8bba_0d8435a4a48c</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Localizer</Literal>
     </AnnotationAssertion>
@@ -12296,6 +12306,36 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#555c689b_1eb9_4b19_a61d_43b3528c321f</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Watershed transformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GSM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/GenomicSample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">genomic data sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7f27ffa3_fee5_444e_a9f6_d791588e8e34"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <AbbreviatedIRI>edamontology2:data_2603</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#555ca11e_635a_40e8_b379_8e6f3fa1f6c0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genomic Sample</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -12426,6 +12466,31 @@ image of FISP.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#6a2e27b3_269c_40ca_8f48_c52ae5078669</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MapIT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
+        <IRI>#6c0e6189_ae45_45cf_a25e_9741b1e64c30</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#6c0e6189_ae45_45cf_a25e_9741b1e64c30</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Michael Kistler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
+        <IRI>#6c0e6189_ae45_45cf_a25e_9741b1e64c30</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.smir.ch/api/object_types/Plain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#6c0e6189_ae45_45cf_a25e_9741b1e64c30</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a plain object without subject/patient information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#6c0e6189_ae45_45cf_a25e_9741b1e64c30</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
