@@ -56,6 +56,9 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71366"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71354"/>
     </Declaration>
     <Declaration>
@@ -63,6 +66,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71378"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#Meter"/>
@@ -86,10 +92,10 @@
         <Class IRI="#inversion-recovery---rapid-acquisition-with-relaxation-enhancement"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-cartesian-MR-sequence"/>
+        <AnnotationProperty abbreviatedIRI="foaf:logo"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71353"/>
@@ -107,10 +113,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71377"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-single-echo-spin-echo-sequence"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#magnetization-prepared-rapid-gradient-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-single-echo-spin-echo-sequence"/>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
@@ -128,13 +137,13 @@
         <Class IRI="#velocity-encoded-cine"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#c5743501_820d_48d1_8322_93320e074b6c"/>
+        <Class IRI="#72b2a84e_ea06_40b9_853b_1bab096a4215"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69166"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#72b2a84e_ea06_40b9_853b_1bab096a4215"/>
+        <NamedIndividual IRI="#c5743501_820d_48d1_8322_93320e074b6c"/>
     </Declaration>
     <Declaration>
         <Class IRI="#gradient-recalled-acquisition-in-the-steady-state"/>
@@ -144,6 +153,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="obo:ERO_0001980"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ba551804_4c60_45d2_bfeb_4dadb167ee17"/>
@@ -188,10 +200,10 @@
         <ObjectProperty IRI="#c65de711_0f9c_4bc4_b498_adf8ee615313"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71344"/>
+        <NamedIndividual IRI="#3e41fe63_0a50_4482_b9f3_001cf1b21bcf"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#3e41fe63_0a50_4482_b9f3_001cf1b21bcf"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71344"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-sa4.0"/>
@@ -200,16 +212,22 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71368"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#1e30ef35_685e_4566_84f7_e060372aac09"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#49856bfb_200e_4975_957e_b6476efe8147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-low-angle-shot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#1e30ef35_685e_4566_84f7_e060372aac09"/>
+        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/1480007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/1480007"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac"/>
     </Declaration>
     <Declaration>
         <Class IRI="#bdc0a920_933e_4dd6_8eb1_0c8411744c10"/>
@@ -245,10 +263,10 @@
         <Class IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#986c7d0f_9155_48d2_945a_09f71b5dbcf0"/>
+        <Class IRI="#stimulated-echo-acquisition-mode"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#stimulated-echo-acquisition-mode"/>
+        <DataProperty IRI="#986c7d0f_9155_48d2_945a_09f71b5dbcf0"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-star-contrast"/>
@@ -299,6 +317,9 @@
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12833"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#4018b472_5739_44a2_a9f3_3c73132e4c6b"/>
     </Declaration>
     <Declaration>
@@ -326,10 +347,10 @@
         <Class abbreviatedIRI="foaf:Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#8b9e0fb1_a6f0_4078_bee9_7a3a804445f5"/>
+        <NamedIndividual IRI="#14f271cb_6c76_481f_b86b_1e26f1931fe6"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#14f271cb_6c76_481f_b86b_1e26f1931fe6"/>
+        <Class IRI="#8b9e0fb1_a6f0_4078_bee9_7a3a804445f5"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71374"/>
@@ -347,19 +368,19 @@
         <AnnotationProperty abbreviatedIRI="foaf:page"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nd4.0"/>
+        <NamedIndividual IRI="https://www.smir.ch/files/1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/files/1"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/cc-by-nd4.0"/>
     </Declaration>
     <Declaration>
         <Class IRI="#f28a252a_3d46_4d59_8d4a_68246ddc79de"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71350"/>
+        <NamedIndividual IRI="#b55549c4_716f_4984_92b4_2016938cae89"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#b55549c4_716f_4984_92b4_2016938cae89"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71350"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="dcmitype:PhysicalObject"/>
@@ -389,13 +410,13 @@
         <DataProperty IRI="#07eee37f_595e_4b4b_842a_6e9336e648f0"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#1441c504_01f0_4339_9124_8d11054fee83"/>
+        <DataProperty IRI="#aa335ac2_86cb_4754_b627_14ed4ead6407"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#cc1b019f_89f2_40a0_9a0a_e7c1eeb142d1"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#aa335ac2_86cb_4754_b627_14ed4ead6407"/>
+        <Class IRI="#1441c504_01f0_4339_9124_8d11054fee83"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="obo:PATO_0000119"/>
@@ -440,19 +461,19 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71352"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:subject"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71376"/>
+        <AnnotationProperty abbreviatedIRI="terms:subject"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Tomography"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="foaf:status"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-time"/>
+        <DataProperty abbreviatedIRI="foaf:status"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/dc/dcmitype/00000138"/>
@@ -476,10 +497,10 @@
         <Class IRI="#14f271cb_6c76_481f_b86b_1e26f1931fe6"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#5aacae40_6963_493d_ad57_cd29b12f3944"/>
+        <ObjectProperty IRI="#b6627c77_7187_4fcb_8c10_e7ba1e6edc2e"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#b6627c77_7187_4fcb_8c10_e7ba1e6edc2e"/>
+        <NamedIndividual IRI="#5aacae40_6963_493d_ad57_cd29b12f3944"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39453"/>
@@ -512,25 +533,25 @@
         <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69168"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spoiled-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cd5953ee_fc17_4168_a9c7_d3729b41d04d"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69168"/>
     </Declaration>
     <Declaration>
         <Class IRI="#7e6f9d59_6d9e_44f0_abb3_a108fde3d00d"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#cd5953ee_fc17_4168_a9c7_d3729b41d04d"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#be04f431_e75e_463d_b5cd_fd6ffc2381d5"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:modified"/>
+        <NamedIndividual IRI="#3a2589d9_5318_40f6_ab1b_33503fa29ddc"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#3a2589d9_5318_40f6_ab1b_33503fa29ddc"/>
+        <AnnotationProperty abbreviatedIRI="terms:modified"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://qudt.org/vocab/unit#SecondTime"/>
@@ -584,10 +605,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#MR-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
+        <Class IRI="#StereoLithography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StereoLithography"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000776"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#8e97cbd3_3034_460d_b92e_753b41b5b604"/>
@@ -596,10 +617,10 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C67143"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71381"/>
+        <NamedIndividual IRI="#a396e560_6534_4a14_809c_5efc10dd1966"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#a396e560_6534_4a14_809c_5efc10dd1966"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71381"/>
     </Declaration>
     <Declaration>
         <Class IRI="#t1-weighted-image"/>
@@ -611,13 +632,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39383"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3063"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#112f7a63_19bd_4126_8ee2_6ac33c79fe8f"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#310d0264_fbef_49a6_98fc_ad9611cbfb76"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3063"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-single-shot-spin-echo-sequence"/>
@@ -641,19 +662,22 @@
         <DataProperty abbreviatedIRI="foaf:mbox"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#3830c914_d165_4882_a008_fd0183d908fb"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71372"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#inversion-recovery-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#3830c914_d165_4882_a008_fd0183d908fb"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#calibration-sequence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2b945d33_4f17_412c_9c89_03d038946881"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#246b5b52_8e43_4003_8241_0776122984ae"/>
@@ -719,13 +743,13 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113644"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39381"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual abbreviatedIRI="obo:ERO_0001974"/>
     </Declaration>
     <Declaration>
         <Class IRI="#modified-driven-equilibrium-fourier-transform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39381"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#0cf408f2_68d3_4583_818a_525194f8db00"/>
@@ -797,10 +821,10 @@
         <Class IRI="#fast-fluid-attenuated-inversion-recovery"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#e45b0515_e2e0_4ab2_8960_3ac4810783b5"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/allrightsreserved"/>
+        <NamedIndividual IRI="#e45b0515_e2e0_4ab2_8960_3ac4810783b5"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#da9f9d0f_91b8_4e62_b763_ff25c437add4"/>
@@ -821,10 +845,10 @@
         <NamedIndividual IRI="#6625b8ad_1ac9_4bdb_8067_67141a5ccce5"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
+        <Class IRI="#bi-dimensional-phase-contrast-angiography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#bi-dimensional-phase-contrast-angiography"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#angiography-sequence"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="terms:DCMIType"/>
@@ -842,10 +866,10 @@
         <Class IRI="#5cd82fea_6a33_4042_87b6_88a234d4e07f"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#474b521d_9022_4b42_8645_3142aac8f3e2"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T1-contrastx"/>
+        <Class IRI="#474b521d_9022_4b42_8645_3142aac8f3e2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#inversion-recovery-fast-spin-echo"/>
@@ -866,10 +890,10 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Poly_tomography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#segmented-spin-echo-sequence"/>
+        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/users/5"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#c56d337f_b0af_4860_92c6_9b134863a5d8"/>
@@ -881,16 +905,16 @@
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39384"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#08105d92_7b5f_4175_8e12_0d7f4b9fc224"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3064"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography"/>
+        <NamedIndividual IRI="#2dfea533_3746_4219_b1a9_81694948f234"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2dfea533_3746_4219_b1a9_81694948f234"/>
+        <NamedIndividual IRI="#08105d92_7b5f_4175_8e12_0d7f4b9fc224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Computed_tomography"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="https://www.smir.ch/objects/23"/>
@@ -905,10 +929,10 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Zonography"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#34849d3c_b035_4103_a34c_3fd8959cf119"/>
+        <Class IRI="#8e28db0b_b9b9_4791_835f_f647259c59d2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#8e28db0b_b9b9_4791_835f_f647259c59d2"/>
+        <NamedIndividual IRI="#34849d3c_b035_4103_a34c_3fd8959cf119"/>
     </Declaration>
     <Declaration>
         <Class IRI="#double-echo-steady-state"/>
@@ -920,13 +944,13 @@
         <NamedIndividual IRI="#e40c7424_2f59_4a0c_8ac4_3e2e20b214d4"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#1ceb7183_2d0a_448f_b5e8_8bc56cd069dd"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dcam:memberOf"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.virtualskeleton.ch/MIAF#d92c640d_ceac_4c0f_8f95_189427c955bb"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#1ceb7183_2d0a_448f_b5e8_8bc56cd069dd"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Single-photon_emission_computed_tomography_(SPECT)"/>
@@ -941,10 +965,10 @@
         <ObjectProperty IRI="#90a4d5bd_8f00_44be_87a3_c7678b03ea73"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
+        <Class IRI="#turbo-field-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#turbo-field-echo"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39385"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#fe62b342_f9fe_4f76_be3d_6fd88e3fea3d"/>
@@ -983,16 +1007,16 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-single-shot-gradient-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#5c9ea647_d041_4323_b498_37d1ce51ccb7"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#cab7eb88_d927_4003_b504_6ffec4a5f79c"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#contrast-enhanced-fast-field-echo-t2-weighted"/>
+        <DataProperty IRI="#5c9ea647_d041_4323_b498_37d1ce51ccb7"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#b558eb19_4fb4_4c32_9ad6_ade89f352cca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contrast-enhanced-fast-field-echo-t2-weighted"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#8f548cbe_b97c_4fd8_8862_086416c65ab5"/>
@@ -1013,10 +1037,10 @@
         <NamedIndividual IRI="#df8a55b0_dd33_4969_8f25_ee189cd3f2ff"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
+        <Class IRI="#half-fourier-acquisition-single-shot-turbo-spin-echo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#half-fourier-acquisition-single-shot-turbo-spin-echo"/>
+        <NamedIndividual IRI="https://www.smir.ch/objects/13"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
@@ -1031,10 +1055,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#contrast-agent-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#84cd03ab_1d67_47fd_87aa_b1803691e10d"/>
+        <DataProperty abbreviatedIRI="foaf:title"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="foaf:title"/>
+        <NamedIndividual IRI="#84cd03ab_1d67_47fd_87aa_b1803691e10d"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#d3a8ca45_240c_4bbc_b9f0_4f421f56aa7f"/>
@@ -1046,10 +1070,10 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Sequence_image"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
+        <Class IRI="#592b93cd_da6c_4e16_a31a_9704f30114c2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#592b93cd_da6c_4e16_a31a_9704f30114c2"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#standard-segmented-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:value"/>
@@ -1061,16 +1085,22 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#magnetization-prepared-segmented-gradient-echo-echo-planar-imaging-sequence"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#true-fast-imaging-in-a-steady-state-precession"/>
     </Declaration>
     <Declaration>
         <Class IRI="#47587aeb_916b_4c31_97c0_9366151dfba8"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#7e69e877_dc06_4bcc_b839_ffb150e589fa"/>
+        <Class abbreviatedIRI="dcmitype:StillImage"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dcmitype:StillImage"/>
+        <DataProperty IRI="#7e69e877_dc06_4bcc_b839_ffb150e589fa"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#e226f542_a257_419e_8a7a_f894a4d5c4d7"/>
@@ -1103,16 +1133,16 @@
         <Class abbreviatedIRI="edamontology2:format_3591"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-echo-sequence"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#e5b46675_63dd_4e16_b7cf_b3be39cecf39"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fast-spin-echo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002032"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#a1680ab5_8177_4b3c_bebf_8d153cca854c"/>
@@ -1145,10 +1175,10 @@
         <NamedIndividual IRI="#f40b9a7d_6238_4707_959c_78126e044042"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optoacoustic_imaging"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluoroscopy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Fluoroscopy"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optoacoustic_imaging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#time-of-flight-gradient-echo"/>
@@ -1166,10 +1196,10 @@
         <Class IRI="#cc9df72c_2470_42b9_8301_7ae1f516475d"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
+        <Class IRI="#pro"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#pro"/>
+        <NamedIndividual IRI="http://purl.org/NET/rdflicense/APACHE1.0"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:rightsHolder"/>
@@ -1187,10 +1217,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#conventional-cartesian-MR-sequence"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#d24c1050_7abf_4cbd_9098_f1983b09d977"/>
+        <ObjectProperty IRI="#8b828733_b5aa_46d6_929c_45861dc883c8"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#8b828733_b5aa_46d6_929c_45861dc883c8"/>
+        <NamedIndividual IRI="#d24c1050_7abf_4cbd_9098_f1983b09d977"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-echo-gradient-echo-sequence"/>
@@ -1214,19 +1244,22 @@
         <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#T2-contrast"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#d1e06386_2da3_4023_9a67_f9f52521cfad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#diffusion-weighted-echo-planar-imaging"/>
+        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/odbl1.0"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#bff2dd97_ee05_4de9_9259_816dc076e506"/>
+        <Class IRI="#diffusion-weighted-echo-planar-imaging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://qudt.org/schema/qudt#LengthUnit"/>
+        <Class IRI="#bff2dd97_ee05_4de9_9259_816dc076e506"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="foaf:Group"/>
@@ -1235,10 +1268,10 @@
         <Class abbreviatedIRI="obo:OBI_0000167"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx"/>
+        <Class IRI="#point-resolved-spatial-selection"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#point-resolved-spatial-selection"/>
+        <NamedIndividual IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#spin-density-contrastx"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#4daefb87_ce8e_4064_8b95_df9dc8a84972"/>
@@ -1271,10 +1304,10 @@
         <Class IRI="#eac0c0d0_434b_45b9_96f5_e006ab4c4c14"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2cb3575e_5d63_4b46_8875_9b5be222860c"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Echocardiography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Echocardiography"/>
+        <NamedIndividual IRI="#2cb3575e_5d63_4b46_8875_9b5be222860c"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Optical_imaging"/>
@@ -1286,19 +1319,19 @@
         <NamedIndividual IRI="#5082b8dc_e65a_4e17_8bba_0d8435a4a48c"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:ERO_0002064"/>
+        <NamedIndividual IRI="#5303824d_89b9_4dc5_8feb_0d6e7865e5d5"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#5303824d_89b9_4dc5_8feb_0d6e7865e5d5"/>
+        <NamedIndividual abbreviatedIRI="obo:ERO_0002064"/>
     </Declaration>
     <Declaration>
         <Class IRI="#92e97fe9_afbf_432a_9275_79399baacdf9"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Calcium_imaging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Calcium_imaging"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Linear_tomography"/>
@@ -1316,10 +1349,13 @@
         <Class abbreviatedIRI="obo:OBCS_0000035"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#multi-echo-gradient-echo-sequence"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#8ad1c395_5042_4fb6_92f0_42a09e3b6c07"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#multi-echo-gradient-echo-sequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Radiography"/>
@@ -1349,6 +1385,9 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Scintigraphy"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#11f9f5d7_778f_4788_b18c_3fd69be6570c"/>
     </Declaration>
     <Declaration>
@@ -1361,10 +1400,10 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#velocity-encoded-angio-sequence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
+        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#pixel-spacing-in-x"/>
+        <Class IRI="http://semanticscience.org/resource/SIO_000396"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#9654fb4d_9a3d_4824_9e71_6b262d210545"/>
@@ -1412,16 +1451,16 @@
         <ObjectProperty IRI="#e011c050_3df0_4200_aa3c_20337fa0a338"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:data_0006"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="http://purl.org/NET/rdflicense/MIT1.0"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <Class abbreviatedIRI="edamontology2:data_0006"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#bedb6cc4_bd36_47c8_825f_6d372482ca10"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
     </Declaration>
     <Declaration>
         <Class IRI="#inversion-recoverery-echoplanar-imaging"/>
@@ -1433,10 +1472,10 @@
         <NamedIndividual abbreviatedIRI="obo:PATO_0000384"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="edamontology2:format_1915"/>
+        <NamedIndividual IRI="#065bc932_ad9d_409b_a608_796086784dfd"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#065bc932_ad9d_409b_a608_796086784dfd"/>
+        <Class abbreviatedIRI="edamontology2:format_1915"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#0f98f1eb_8126_4bf6_81eb_41e51385c8e5"/>
@@ -1460,25 +1499,25 @@
         <Class IRI="#"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#e7188c5c_a083_4059_a48f_14f8d4d8d4d0"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/sig/ont/fma/fma62955"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Magnetic_resonance_imaging"/>
+        <AnnotationProperty abbreviatedIRI="foaf:title"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-stimulated-echoes-sequence"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:title"/>
+        <NamedIndividual IRI="#c448a205_1c79_42d3_8d25_99e3fd230c36"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#H1-chemical-shift-imaging-spectroscopy-sequence"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#c448a205_1c79_42d3_8d25_99e3fd230c36"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:created"/>
@@ -1502,10 +1541,10 @@
         <Class IRI="#aa667a3e_95fb_40c7_bc97_b572c554fa9c"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#d6a3d7b7_c0e6_4ccf_8f10_cbe0685be58e"/>
+        <Class abbreviatedIRI="dcmitype:InteractiveResource"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dcmitype:InteractiveResource"/>
+        <NamedIndividual IRI="#d6a3d7b7_c0e6_4ccf_8f10_cbe0685be58e"/>
     </Declaration>
     <Declaration>
         <Class IRI="#d0a7b927_9208_4a75_9a96_b3d67f396344"/>
@@ -1592,6 +1631,9 @@
         <NamedIndividual IRI="#32c53eab_b7e6_4ab5_ba9b_e0d083754c1d"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/410607006"/>
     </Declaration>
     <Declaration>
@@ -1619,16 +1661,16 @@
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Positron_Tmission_tomography"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#eb5e345b_fa6e_43e3_a653_b5ea9a2df878"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-MR-sequence"/>
+        <NamedIndividual IRI="#eb5e345b_fa6e_43e3_a653_b5ea9a2df878"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_12832"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#non-conventional-MR-sequence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#5a9dd4d8_5043_4167_bc36_98f1f0da00d9"/>
@@ -1655,10 +1697,10 @@
         <NamedIndividual IRI="#d3007ee5_e62c_4001_ada6_d3f45b2a6712"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:format"/>
+        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#BioImaging_Modalities"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#BioImaging_Modalities"/>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
     </Declaration>
     <Declaration>
         <Class IRI="#turbo-spin-echo"/>
@@ -1688,28 +1730,28 @@
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#steady-state-gradient-echo-FID-sequence"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#f8a6a94a_fead_4f18_8475_f59b8448ed1e"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71359"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71347"/>
+        <DataProperty IRI="#f8a6a94a_fead_4f18_8475_f59b8448ed1e"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48432"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#3e08a717_9490_4125_866b_5bd47ab4d365"/>
+        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71347"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#c5b07fb2_4461_44a6_8564_86fcb92a75e7"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#1ca2654d_5600_4b24_938d_c02891fad2b8"/>
+        <NamedIndividual IRI="#3e08a717_9490_4125_866b_5bd47ab4d365"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-shot-spin-echo-sequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1ca2654d_5600_4b24_938d_c02891fad2b8"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/87683000"/>
@@ -2519,6 +2561,10 @@
         <Class abbreviatedIRI="edamontology2:format_2330"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <Class IRI="#046367a3_bd96_4789_bdf3_bab17bc275c9"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#"/>
         <Class IRI="http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#Nuclear_imaging"/>
     </SubClassOf>
@@ -3253,6 +3299,54 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/odrl/2/Policy"/>
         <NamedIndividual IRI="http://www.gnu.org/licenses/gpl-3.0.rdf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5"/>
+        <NamedIndividual IRI="http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#b7594bd1_eb1f_4b7b_8504_4be86855ba9d"/>
@@ -8374,6 +8468,66 @@ default for object: dataset</Literal>
         <IRI>http://www.gnu.org/graphics/gplv3-127x51.png</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:18:22Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e</IRI>
+        <IRI>#262f073f_4175_458e_9c5e_d439c4868b12</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#a4330bca_7b02_432d_8d89_787c0027cd0e</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:11:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31</IRI>
+        <IRI>#f8a6a94a_fead_4f18_8475_f59b8448ed1e</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#b3081f13_637b_4319_befb_8a623de26b31</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:12:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5</IRI>
+        <IRI>#ab4695f0_f7b6_4817_9674_140530187ea1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#cb25f8e6_95b0_4c23_b1d4_0128b7c337a5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
         <IRI>http://www.virtualskeleton.ch/MIAF#d92c640d_ceac_4c0f_8f95_189427c955bb</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CSV</Literal>
@@ -8402,6 +8556,221 @@ default for object: dataset</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>http://www.virtualskeleton.ch/MIAF#d92c640d_ceac_4c0f_8f95_189427c955bb</IRI>
         <AbbreviatedIRI>edamontology2:format_3475</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:12:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097</IRI>
+        <AbbreviatedIRI>terms:created</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_created_date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:16:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe</IRI>
+        <AbbreviatedIRI>terms:description</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#0e0500a5_2492_4f95_a055_1c969a6552fe</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:13:22Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d</IRI>
+        <AbbreviatedIRI>terms:modified</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#10dcdaf9_6bdb_4b1f_bda7_2c46e5f1c29d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_modified_date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:10:43Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1</IRI>
+        <IRI>http://semanticscience.org/resource/SIO_000776</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#15a7ca38_0797_482d_8da9_83523207c8e1</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">o_object_rdf_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:19:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823</IRI>
+        <IRI>#3830c914_d165_4882_a008_fd0183d908fb</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#34127d03_aea2_4a24_871c_6f7e9ac72823</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_file_count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:02:01Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">holds the mapping key for the DB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MappingTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:03:14Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#50859a97_afdd_4f3a_9b21_2b391c2a82d5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mapping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:17:27Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac</IRI>
+        <AbbreviatedIRI>edamontology2:data_1059</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#57930446_dc48_4445_9615_d0e08f3a7dac</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_extension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:06:47Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295</IRI>
+        <AbbreviatedIRI>terms:identifier</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#70a94262_0fbb_406f_af02_20e467827295</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">s_object_uri</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:13:40Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f</IRI>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#8bcdf331_a3e2_4764_bc44_40d0f22d856f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f</IRI>
+        <IRI>http://orcid.org/0000-0002-1273-9473</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-10T17:17:58Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.virtualskeleton.ch/MIAF#4df62452_761a_4d13_9c77_98e09ab4e66c"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f</IRI>
+        <IRI>#986c7d0f_9155_48d2_945a_09f71b5dbcf0</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.virtualskeleton.ch/MIAF#859670b5_8337_4f2d_8473_a2761b49e09f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p_object_size</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="uberon:ABBREVIATION"/>
