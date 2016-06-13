@@ -63,7 +63,7 @@
     "ns2:p_object_surface_model_max_y": "ns3:surface_model_max_y",
     "ns2:p_object_surface_model_min_z": "ns3:surface_model_min_z",
     "ns2:p_object_surface_model_max_z": "ns3:surface_model_max_z",
-    "ns2:p_object_owner": "ns3:owner",
+    "ns2:p_object_owner": "ns3:rightsHolder",
 
     "ns2:s_file_uri": "ns1:files/{id}",
     "ns2:o_file_rdf_type": "ns3:file",
@@ -87,6 +87,14 @@
     "ns2:p_modality": "ns3:modality",
     "ns2:p_license": "ns4:license",
     "ns2:p_gender": "ns3:gender",
-    "ns2:p_dominance": "ns3:dominance"
+    "ns2:p_dominance": "ns3:dominance",
+
+    "ns2:p_object_raw_image_slice_orientation": "ns3:slice_orientation",
+    "ns2:p_object_title": "ns4:title",
+    "ns2:p_object_title_immutable": "ns3:immutable_title",
+    "ns2:p_object_description_immutable": "ns3:immutable_description",
+    "ns2:p_object_age": "ns3:age",
+    "ns2:p_object_temperature": "ns3:temperature",
+    ""
   }
 }
