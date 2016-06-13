@@ -157,3 +157,18 @@ ORDER BY ?disp
 
 ## can be use to check if abbr is missing OPTIONal {?uri uberon:ABBREVIATION ?abbr } .
 ```
+
+### show mappings list
+
+```
+SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel 
+
+WHERE {
+
+?pURI  miaf:4df62452_761a_4d13_9c77_98e09ab4e66c  ?mURI .
+?pURI rdfs:label ?pLabel .
+?mURI rdfs:label ?mLabel .
+}
+
+ORDER BY ?mLabel
+```
