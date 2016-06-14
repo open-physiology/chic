@@ -63,16 +63,33 @@ vsd:mr-sequence-acronym ?p ?label
 ### PRefix list
 
 ```
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX miaf: <http://www.virtualskeleton.ch/MIAF#>
-PREFIX uberon: <http://purl.obolibrary.org/obo/uberon/core#>
-PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
-PREFIX mrda: <http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#>
-PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:     <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+PREFIX dct:     <http://purl.org/dc/terms/>
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX miaf:    <http://www.virtualskeleton.ch/MIAF.owl#>
+PREFIX ns1:     <http://virtualskeleton.ch/data/fma>
+PREFIX fma:     <http://purl.org/sig/ont/fma/>
+PREFIX odrl:    <http://www.w3.org/ns/odrl/2/>
+PREFIX mrda:    <http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#>
+PREFIX obo:     <http://purl.obolibrary.org/obo/>
+PREFIX obi:     <http://purl.obolibrary.org/obo/OBI_>
+PREFIX ero:     <http://purl.obolibrary.org/obo/ERO_>
+PREFIX obcs:    <http://purl.obolibrary.org/obo/OBCS_>
+PREFIX pato:    <http://purl.obolibrary.org/obo/PATO_>
+PREFIX uberon:  <http://purl.obolibrary.org/obo/uberon/core#>
+PREFIX edam:    <http://edamontology.org/>
+PREFIX sio:     <http://semanticscience.org/resource/>
+PREFIX bim:     <http://cbakerlab.unbsj.ca:8080/sebi/BIM.owl#>
+PREFIX birnlex: <http://bioontology.org/projects/ontologies/birnlex#>
+PREFIX csp:     <http://purl.bioontology.org/ontology/CSP/>
+PREFIX dcm:     <http://dicom.nema.org/resources/ontology/DCM/>
+PREFIX vocab:   <http://open.vocab.org/terms/>
+PREFIX lic:     <http://purl.org/NET/rdflicense/>
+PREFIX sedi:    <http://semantic-dicom.org/dcm#>
+PREFIX unit:    <http://qudt.org/vocab/unit#>
 ```
 
 
@@ -171,4 +188,63 @@ WHERE {
 }
 
 ORDER BY ?mLabel
+```
+
+### show all object properties for object type raw images
+
+```
+raw_image: miaf:c56d337f_b0af_4860_92c6_9b134863a5d8
+
+
+SELECT DISTINCT ?label ?o ?p
+
+WHERE {
+
+miaf:c56d337f_b0af_4860_92c6_9b134863a5d8 ?p ?o .
+?p a owl:ObjectProperty .
+?o rdfs:label ?label .
+
+}
+
+ORDER BY ?label
+```
+
+### showl object properties of type raw which are has_default_property
+
+```
+SELECT DISTINCT ?o ?name
+
+WHERE {
+miaf:c56d337f_b0af_4860_92c6_9b134863a5d8 ?p ?o .
+?p a owl:ObjectProperty ;
+    rdfs:label ?label .
+FILTER (regex(?label, "has_default_property") )
+
+?o rdfs:label ?name .
+
+
+}
+
+ORDER BY ?name
+```
+
+### show mappings with related label of the mapping 
+this gets all the available (properties / defaultproperties) for object type segmentation
+
+```
+SELECT DISTINCT ?p ?label ?o ?name ?mlabel ?map
+
+WHERE {
+miaf:5d1ff8d5_c3b7_40d9_804e_683f2700e8f6 ?p ?o .
+?p a owl:ObjectProperty ;
+    rdfs:label ?label .
+
+?o rdfs:label ?name .
+?o miaf:4df62452_761a_4d13_9c77_98e09ab4e66c ?map .
+?map miaf:928cadf1_8d82_4177_87c9_51b5b840616e ?mlabel .
+
+}
+
+ORDER BY ?label
+
 ```
