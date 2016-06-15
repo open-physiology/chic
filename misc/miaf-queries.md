@@ -175,7 +175,7 @@ ORDER BY ?disp
 ## can be use to check if abbr is missing OPTIONal {?uri uberon:ABBREVIATION ?abbr } .
 ```
 
-### show mappings list
+### mapping instances
 
 ```
 SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel 
@@ -184,7 +184,24 @@ WHERE {
 
 ?pURI  miaf:4df62452_761a_4d13_9c77_98e09ab4e66c  ?mURI .
 ?pURI rdfs:label ?pLabel .
+FILTER (lang(?pLabel) = "en" )
+}
+
+ORDER BY ?mLabel
+```
+
+### show mappings list
+
+p_object_name is not shown because it contains rdfs:label
+```
+SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel 
+
+WHERE {
+
+?pURI  miaf:4df62452_761a_4d13_9c77_98e09ab4e66c  ?mURI .
+?pURI rdfs:label ?pLabel .
 ?mURI rdfs:label ?mLabel .
+FILTER (lang(?mLabel) = "en" )
 }
 
 ORDER BY ?mLabel
@@ -232,7 +249,7 @@ ORDER BY ?name
 this gets all the available (properties / defaultproperties) for object type segmentation
 
 ```
-SELECT DISTINCT ?p ?label ?o ?name ?mlabel ?map
+    SELECT DISTINCT ?p ?label ?o ?name ?mlabel ?map
 
 WHERE {
 miaf:5d1ff8d5_c3b7_40d9_804e_683f2700e8f6 ?p ?o .
