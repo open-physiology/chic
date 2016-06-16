@@ -233,10 +233,10 @@
         <Class IRI="#49856bfb_200e_4975_957e_b6476efe8147"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fast-low-angle-shot"/>
+        <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69405"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69405"/>
+        <Class IRI="#fast-low-angle-shot"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/SNOMEDCT/1480007"/>
@@ -1697,13 +1697,13 @@
         <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#echo-planar-imaging---spin-echo"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#turbo-gradient-spin-echo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#c56de5aa_33b1_4c3d_be1e_acfa090a459f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#echo-planar-imaging---spin-echo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#089a689e_e6c1_4daa_a3fd_2ae7cc685b75"/>
@@ -2084,10 +2084,10 @@
         <NamedIndividual IRI="#1ca2654d_5600_4b24_938d_c02891fad2b8"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-shot-spin-echo-sequence"/>
+        <NamedIndividual IRI="#57930446_dc48_4445_9615_d0e08f3a7dac"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#57930446_dc48_4445_9615_d0e08f3a7dac"/>
+        <Class IRI="http://neurolog.unice.fr/ontoneurolog/v3.0/ontoneurolog-mr-dataset-acquisition.owl#single-shot-spin-echo-sequence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/87683000"/>
@@ -4595,6 +4595,31 @@
         <NamedIndividual IRI="#908630bc_610b_47cd_9cc1_ad7b2e2a1e75"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <NamedIndividual IRI="#1cd30d3c_65f6_435b_9200_a6417724c5ed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <NamedIndividual IRI="#251dd3f4_4eb3_4cf3_84b2_d4d224445d1e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <NamedIndividual IRI="#46e202b9_be27_47a4_8017_694b911a1223"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <NamedIndividual IRI="#6c53dea9_bbf4_4dfb_8bc8_c712d364831b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#af8efd6f_3f9e_404c_9b57_3f14b47e013b"/>
+        <NamedIndividual IRI="#6ebccf4e_c145_49c5_8016_d4d786f8520f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#11f9f5d7_778f_4788_b18c_3fd69be6570c"/>
         <NamedIndividual IRI="#b0070658_e8ce_4899_95be_fa53eb0acbe3"/>
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3065"/>
@@ -4633,6 +4658,11 @@
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b"/>
         <NamedIndividual IRI="#a4330bca_7b02_432d_8d89_787c0027cd0e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#b6c7c1bc_a48c_408e_b35d_ed3b48445e0b"/>
+        <NamedIndividual IRI="#aa375ec2_c2f7_4da8_8d13_6b49860f6d7e"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
@@ -4788,6 +4818,11 @@
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#ba551804_4c60_45d2_bfeb_4dadb167ee17"/>
         <NamedIndividual IRI="#908630bc_610b_47cd_9cc1_ad7b2e2a1e75"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#ba551804_4c60_45d2_bfeb_4dadb167ee17"/>
+        <NamedIndividual IRI="#aa375ec2_c2f7_4da8_8d13_6b49860f6d7e"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ef8faa53_1b67_4d90_888e_6a3a1b40dd28"/>
@@ -5173,6 +5208,11 @@
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#d0a7b927_9208_4a75_9a96_b3d67f396344"/>
         <NamedIndividual IRI="#57930446_dc48_4445_9615_d0e08f3a7dac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#d0a7b927_9208_4a75_9a96_b3d67f396344"/>
+        <NamedIndividual IRI="#6ab31f5f_ad9b_4b56_a5da_fe4c76970e48"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
@@ -5845,6 +5885,36 @@
         <NamedIndividual IRI="#908630bc_610b_47cd_9cc1_ad7b2e2a1e75"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#251dd3f4_4eb3_4cf3_84b2_d4d224445d1e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#4507c737_7bf6_4668_bd59_1b4dbce2b222"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#5de5c162_7c91_469b_9fd6_70508ed7d78d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#55fae296_f6c9_438e_a129_d1cbbc4bcbdb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#6ebccf4e_c145_49c5_8016_d4d786f8520f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#3e98a035_1a79_4af9_a08c_8156c126bf37"/>
+        <NamedIndividual IRI="#9d340f4a_24a1_409b_8e2d_80a52fff3cce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#11f9f5d7_778f_4788_b18c_3fd69be6570c"/>
         <NamedIndividual IRI="#32c53eab_b7e6_4ab5_ba9b_e0d083754c1d"/>
         <NamedIndividual IRI="http://bioontology.org/projects/ontologies/birnlex#birnlex_3066"/>
@@ -6022,6 +6092,16 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <NamedIndividual IRI="#d23a5455_4b7c_4d81_945d_9fdc2bd0e986"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <NamedIndividual IRI="#e9af92b5_56ce_4b1d_9333_0239ec948a78"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
         <NamedIndividual IRI="#f63fc9ba_3ee2_4d3c_aaec_6d268bfd0097"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -6042,12 +6122,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <NamedIndividual IRI="#251dd3f4_4eb3_4cf3_84b2_d4d224445d1e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
         <NamedIndividual IRI="#34127d03_aea2_4a24_871c_6f7e9ac72823"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
         <NamedIndividual IRI="#57930446_dc48_4445_9615_d0e08f3a7dac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <NamedIndividual IRI="#695f2c77_baf2_484e_abf0_54c223d3ab8c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
+        <NamedIndividual IRI="#4db3115d_5f99_4f2e_bcee_6cdfe6796d7f"/>
+        <NamedIndividual IRI="#776ddd8c_8599_4324_9c82_110e9bb2a603"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
@@ -6448,6 +6543,26 @@
         <ObjectProperty IRI="#d88fc04d_8920_4f54_ad17_b9094e13865a"/>
         <NamedIndividual IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
         <NamedIndividual IRI="#908630bc_610b_47cd_9cc1_ad7b2e2a1e75"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
+        <NamedIndividual IRI="#251dd3f4_4eb3_4cf3_84b2_d4d224445d1e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
+        <NamedIndividual IRI="#6ebccf4e_c145_49c5_8016_d4d786f8520f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
+        <NamedIndividual IRI="#71c475f1_9e58_4af6_8aec_f5960fdfc497"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#0fa70cdc_25e7_486d_98cb_e7dc94c38be7"/>
+        <NamedIndividual IRI="#555ca11e_635a_40e8_b379_8e6f3fa1f6c0"/>
+        <NamedIndividual IRI="#776ddd8c_8599_4324_9c82_110e9bb2a603"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ef8faa53_1b67_4d90_888e_6a3a1b40dd28"/>
