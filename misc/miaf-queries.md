@@ -90,6 +90,7 @@ PREFIX vocab:   <http://open.vocab.org/terms/>
 PREFIX lic:     <http://purl.org/NET/rdflicense/>
 PREFIX sedi:    <http://semantic-dicom.org/dcm#>
 PREFIX unit:    <http://qudt.org/vocab/unit#>
+PREFIX ncit:    <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 ```
 
 
@@ -175,24 +176,9 @@ ORDER BY ?disp
 ## can be use to check if abbr is missing OPTIONal {?uri uberon:ABBREVIATION ?abbr } .
 ```
 
-### mapping instances
-
-```
-SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel 
-
-WHERE {
-
-?pURI  miaf:4df62452_761a_4d13_9c77_98e09ab4e66c  ?mURI .
-?pURI rdfs:label ?pLabel .
-FILTER (lang(?pLabel) = "en" )
-}
-
-ORDER BY ?mLabel
-```
 
 ### show mappings list
 
-p_object_name is not shown because it contains rdfs:label
 ```
 SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel 
 

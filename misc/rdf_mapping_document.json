@@ -48,9 +48,9 @@
     "miaf:p_object_channel_count": "miaf:channel_count", //gsm
     "miaf:p_object_data_processing": "miaf:data_processing", //gsm
     "miaf:p_object_immutable_abstract": "miaf:immutable_abstract", // was summary, gse
-    "miaf:p_object_genomic_series_type": "miaf:series_type",
-    "miaf:p_object_genomic_series_overall_design": "miaf:overall_design",
-    "miaf:p_object_uid": "miaf:uid", //study, series
+    "miaf:p_object_genomic_series_type": "miaf:series_type", //gse
+    "miaf:p_object_genomic_series_overall_design": "miaf:overall_design", //gse
+    "miaf:p_object_uid": "miaf:uid", //study, subject
     "miaf:p_object_age": "miaf:subject_snapshot_age", //subject, raw
     "miaf:p_object_body_temperature": "miaf:body temperature", //subject, raw
     "miaf:p_object_body_height": "miaf:body_height", //subject, raw
