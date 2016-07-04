@@ -72,7 +72,7 @@
     "miaf:s_file_uri": "smir:files/{id}", //all
     "miaf:o_file_rdf_type": "miaf:file", //all
     "miaf:p_file_id": "miaf:id", //all
-    "miaf:p_file_object_type": "miaf:file_ôbject_type", //all what is this? no clear what to map
+    "miaf:p_file_type": "dct:Format", //all what is this? no clear what to map (mime types)
     "miaf:p_file_format": "miaf:file_format",
     "miaf:p_file_created_date": "dcterm:created",
     "miaf:p_file_modified_date": "dcterm:modified",
