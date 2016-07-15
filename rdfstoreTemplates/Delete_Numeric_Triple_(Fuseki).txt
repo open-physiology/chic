@@ -1,0 +1,9 @@
+# 0 = Subject
+# 1 = Predicate
+# 2 = Object
+DELETE WHERE
+{
+  <[0]>
+  <[1]>
+  [2]
+}
