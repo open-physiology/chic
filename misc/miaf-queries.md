@@ -251,3 +251,23 @@ miaf:5d1ff8d5_c3b7_40d9_804e_683f2700e8f6 ?p ?o .
 ORDER BY ?label
 
 ```
+
+
+## selecting all mapping and show display label and type and range
+```
+SELECT DISTINCT ?pURI ?pLabel ?mURI ?mLabel ?rdftype ?rtype ?r ?dsip
+
+WHERE {
+
+?pURI  miaf:4df62452_761a_4d13_9c77_98e09ab4e66c  ?mURI .
+?pURI rdfs:label ?pLabel .
+?pURI rdf:type ?rdftype .
+?mURI rdfs:range ?r .
+?mURI rdfs:label ?mLabel .
+?mURI rdf:type ?rtype .
+  ?mURI miaf:928cadf1_8d82_4177_87c9_51b5b840616e ?dsip .
+FILTER (lang(?mLabel) = "en" )
+}
+
+ORDER BY ?mLabel
+```
