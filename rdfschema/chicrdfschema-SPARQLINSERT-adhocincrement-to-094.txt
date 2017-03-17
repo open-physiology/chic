@@ -1,0 +1,204 @@
+PREFIX chicsch:        <http://www.chic.eu/ontologies/resource#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+INSERT DATA 
+{
+
+
+
+# This version completes the support for parameters based on model repository requirements -- Saarbruecken update Sept 2016: 
+
+# semtype attribute uses <http://www.chic-vph.eu/ontologies/resource#interpreted-type>
+# Open ended value range -- need selection mechanism
+
+# name uses <http://www.chic-vph.eu/ontologies/resource#hasName>
+
+# data_type: <http://www.chic-vph.eu/ontologies/resource#parameterHasDatatype>
+# Data types: Need list of data types, if other than xsd
+
+# unit -- as string or as controlled vocab; control vocab to delineate
+
+# default_value 
+
+<http://www.chic-vph.eu/ontologies/resource#parameterHasDefaultValue>
+  a rdf:Property ;
+  rdfs:label "has default value" ;
+  rdfs:comment "link between a parameter and a value recorded as it's default -- recorded as literal" ;
+  rdfs:domain <http://www.chic-vph.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range rdfs:Literal .
+
+# If measurements are needed (value/unit); specify 
+
+
+### Parameter attributes: 
+# Need detailed list and definitions as well as preferred strategies of use
+
+# a relationship to explicit parameter attributes and a class of parameter attributes (input output)
+# or specialised types of parameters 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute>
+  a rdfs:Class ;
+  rdfs:label "Model parameter attribute" ;
+  rdfs:comment "An instance of ModelParameterAttribute is an attribute of a parameter in a model." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModellingEntity> . 
+
+<http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute>
+  a rdf:Property ;
+  rdfs:label "has attribute" ;
+  rdfs:comment "link between a model parameter and one of its attributes. For example, " ;
+  rdfs:domain <http://www.chic-vph.eu/ontologies/resource#ModelParameter> ;
+  rdfs:range <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsMandatory> "Mandatory" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsOutput> "Output" ) ;
+  chicsch:designatedValueWithPreferredLabel  (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsStatic> "Static" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsModellingLogic> "Modelling logic" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDomainLogic> "Domain logic" ) ;  
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsAggregateData> "Aggregate data" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDiscreteData> "Discrete data" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPatientSpecific> "Patient specific" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPopulationSpecific> "Population specific" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsGeneric> "Generic" ) 
+.
+
+# is_mandatory
+# is_output
+# is_static
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsMandatory>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is mandatory" ;
+ rdfs:comment "An attribute of model parameters that are mandatory in the sense that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsOutput>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is output" ;
+ rdfs:comment "An attribute of model parameters that are output parameters (for the model to which they belong) in the sense that .... See also outputParameterOfModel" .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsStatic>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is static" ;
+ rdfs:comment "An attribute of model parameters that are static parameters in the sense that ..." .
+
+
+# This section addresses parameter typing 
+
+# is_modelling_logic
+# is_domain_logic
+# is_patient_specific
+# is_population_specific
+# is_generic
+# is_aggregate_data
+# is_data_value
+
+# Categorical approach to parameter typing 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfModellingLogicType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfModellingLogicType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfDomainLogicType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfDomainLogicType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfAggregateDataType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfAggregateDataType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfDiscreteDataType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfDiscreteDataType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfPatientSpecificType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfPatientSpecificType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfPopulationSpecificType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfPopulationSpecificType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameter-OfGenericType>
+  a rdfs:Class ;
+  rdfs:label "Model parameter of the type modelling logic" ;
+  rdfs:comment "An instance of ModelParameter-OfGenericType is a parameter in a model that..." ;
+  rdfs:subClassOf <http://www.chic-vph.eu/ontologies/resource#ModelParameter> . 
+
+# Attributive approach to parameter typing 
+
+# is_modelling_logic
+# is_domain_logic
+# is_patient_specific
+# is_population_specific
+# is_generic
+# is_aggregate_data
+# is_data_value
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsModellingLogic>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is modelling logic" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDomainLogic>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is domain logic" ;
+ rdfs:comment "An attribute of model parameters that..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsAggregateData>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is aggregate data" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDiscreteData>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is discrete data" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPatientSpecific>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is patient specific" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPopulationSpecific>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is population specific" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+<http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsGeneric>
+ a <http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute> ; 
+ rdfs:label "is generic" ;
+ rdfs:comment "An attribute of model parameters that ..." .
+
+
+### Addendum 0.9.4: 
+# This version settles the mechanism for semantic typing. 
+# Abstractions are offered in this schema, 
+# a different mechanism would be needed for open ended annotations. 
+# This aims at supporting coarse search. 
+# The selection is empirical based on models annotated. 
+# Duration Ratio Rate Concentration Quantity (count) Volume Age
+
+# PATO's namespace: http://purl.obolibrary.org/obo/
+# Using http://purl.org/obo/owlapi/quality# for compatibility with deployed OWLKB
+
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type>
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0000033> "concentration" ) ;
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0000161> "rate" ) ; 
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0000070> "count" ) ; 
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0001470> "ratio" ) ; 
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0001309> "duration" ) ; 
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0000011> "age" ) ; 
+  chicsch:designatedValueWithPreferredLabel (<http://purl.org/obo/owlapi/quality#PATO_0000918> "volume" ) .
+
+}
