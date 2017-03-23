@@ -1,0 +1,3 @@
+select distinct ?model ?label where {?model <http://www.w3.org/2000/01/rdf-schema#type> 
+<http://www.chic.eu/ontologies/resource#Model-ChicHypomodel> . ?model <http://www.w3.org/2000/01/rdf-schema#label> ?label 
+}

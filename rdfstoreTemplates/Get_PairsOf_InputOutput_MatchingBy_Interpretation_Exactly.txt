@@ -1,0 +1,3 @@
+PREFIX chicro: <http://www.chic-vph.eu/ontologies/resource#>
+Select ?input ?output where 
+{ ?input chicro:input-output-match-by-exact-interpretation ?output }

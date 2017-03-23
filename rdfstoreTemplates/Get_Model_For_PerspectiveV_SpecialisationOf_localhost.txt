@@ -1,0 +1,9 @@
+# 0 = Value
+# Preprocessor0 = http://localhost:20083/terms/%s?longURI=yes&json=yes
+SELECT DISTINCT ?model
+WHERE
+{
+  ?model 
+<http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5>
+  <[0]> 
+}

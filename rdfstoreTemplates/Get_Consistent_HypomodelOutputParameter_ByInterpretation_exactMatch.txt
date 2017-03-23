@@ -1,0 +1,5 @@
+# 0 parameter 
+select distinct ?parameter2 where {
+<[0]> <http://http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?i .
+?parameter2 <http://http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?i .
+?parameter2 <http://http://www.chic-vph.eu/ontologies/resource#outputParameterOfModel> ?model2 }

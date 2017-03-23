@@ -1,0 +1,11 @@
+# [0] Parameter
+SELECT ?match ?model ?model2
+WHERE
+{
+ <[0]> <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object . 
+ ?match <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object .
+ <[0]> <http://www.chic-vph.eu/ontologies/resource#outputParameterOfModel> ?model .
+ ?match <http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> ?model2 .
+ FILTER (<[0]> != ?match)
+ FILTER (?model != ?model2)
+}

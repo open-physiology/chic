@@ -1,0 +1,10 @@
+# 0 = Perspective
+# 1 = Value
+# Preprocessor1 = http://open-physiology.org:20083/terms/%s?longURI=yes&json=yes
+SELECT DISTINCT ?model
+WHERE
+{
+  ?model 
+  <[0]>
+  <[1]> 
+}

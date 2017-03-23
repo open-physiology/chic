@@ -1,0 +1,9 @@
+# 0 = Parameter
+SELECT ?match
+WHERE
+{
+ <[0]>
+ <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object . 
+ ?match <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object .
+ FILTER (<[0]> != ?match)
+}

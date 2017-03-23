@@ -1,0 +1,4 @@
+# 0 Parameter
+SELECT ?MEANING 
+WHERE {
+<[0]> <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?MEANING }

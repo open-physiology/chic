@@ -1,0 +1,11 @@
+INSERT 
+{ ?parameter <http://www.chic-vph.eu/ontologies/resource#input-output-match-by-exact-interpretation> ?match }
+WHERE
+{
+ ?parameter <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object . 
+ ?match <http://www.chic-vph.eu/ontologies/resource#interpreted-type> ?object .
+ ?parameter <http://www.chic-vph.eu/ontologies/resource#outputParameterOfModel> ?model .
+ ?match <http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> ?model2 .
+ FILTER (?parameter != ?match)
+ FILTER (?model != ?model2)
+}

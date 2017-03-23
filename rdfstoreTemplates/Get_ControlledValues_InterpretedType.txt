@@ -1,0 +1,10 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+
+select ?valueURI ?valueLabel where {
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> 
+<http://www.chic-vph.eu/ontologies/resource#designatedValueWithPreferredLabel> 
+?pair .
+?pair rdf:first ?valueURI .
+?pair rdf:rest ?rest .
+?rest rdf:first ?valueLabel
+}

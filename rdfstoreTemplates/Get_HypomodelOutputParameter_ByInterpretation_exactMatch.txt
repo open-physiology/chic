@@ -1,0 +1,4 @@
+# 0 interpretation 
+select distinct ?parameter where {
+?parameter <http://www.chic.eu/ontologies/some-model-ontology#interpreted-type> <[0]> .
+?parameter <http://www.chic.eu/ontologies/some-model-ontology#output-parameter-of> ?model }

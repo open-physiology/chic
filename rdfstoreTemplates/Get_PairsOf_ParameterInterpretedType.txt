@@ -1,0 +1,4 @@
+PREFIX chicro: <http://www.chic-vph.eu/ontologies/resource#>
+SELECT ?PARAMETER ?MEANING
+WHERE {
+?PARAMETER chicro:interpreted-type> ?MEANING }

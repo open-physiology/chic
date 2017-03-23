@@ -1,0 +1,5 @@
+# 0 Meaning
+PREFIX chicro: <http://www.chic-vph.eu/ontologies/resource#>
+SELECT ?PARAMETER 
+WHERE {
+?PARAMETER chicro:interpreted-type <[0]> }
