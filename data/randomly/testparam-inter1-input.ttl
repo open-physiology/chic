@@ -1,0 +1,171 @@
+<#1>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000033>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#2>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#4>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model4>.
+<#8>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model10>.
+<#9>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model10>.
+<#19>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#20>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model11>.
+<#21>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model11>.
+<#22>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model9>.
+<#23>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model9>.
+<#25>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#26>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#27>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model2>.
+<#29>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#31>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model2>.
+<#32>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#38>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model9>.
+<#55>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#57>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#60>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model3>.
+<#64>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000033>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model7>.
+<#66>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#71>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000011>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#72>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model2>.
+<#75>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000918>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model2>.
+<#76>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#78>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#79>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#81>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model4>.
+<#82>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model7>.
+<#84>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model11>.
+<#87>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#89>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001470>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model10>.
+<#97>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model11>.
+<#103>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#104>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model3>.
+<#107>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model3>.
+<#108>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#113>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model1>.
+<#116>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#117>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#122>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model10>.
+<#132>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model4>.
+<#134>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#135>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model9>.
+<#144>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model11>.
+<#147>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000033>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model4>.
+<#152>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#155>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000033>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#157>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000161>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#162>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model6>.
+<#163>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model3>.
+<#165>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000033>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model8>.
+<#166>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model7>.
+<#183>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0000070>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
+<#186>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model3>.
+<#190>
+<http://www.chic-vph.eu/ontologies/resource#interpreted-type> <http://purl.obolibrary.org/obo/PATO_0001309>;
+<http://www.chic-vph.eu/ontologies/resource#inputParameterOfModel> <#model5>.
