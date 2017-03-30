@@ -1,0 +1,37 @@
+{
+  "head": {
+    "vars": [ "valueURI" , "valueLabel" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000161" } ,
+        "valueLabel": { "type": "literal" , "value": "rate" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000033" } ,
+        "valueLabel": { "type": "literal" , "value": "concentration" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000918" } ,
+        "valueLabel": { "type": "literal" , "value": "volume" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000011" } ,
+        "valueLabel": { "type": "literal" , "value": "age" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001309" } ,
+        "valueLabel": { "type": "literal" , "value": "duration" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001470" } ,
+        "valueLabel": { "type": "literal" , "value": "ratio" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000070" } ,
+        "valueLabel": { "type": "literal" , "value": "count" }
+      }
+    ]
+  }
+}
