@@ -1,0 +1,38 @@
+<http://www.chic-vph.eu/ontologies#chic_0002111> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002112> .
+<http://www.chic-vph.eu/ontologies#chic_0002111> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002113> .
+<http://www.chic-vph.eu/ontologies#chic_0002111> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002114> .
+<http://www.chic-vph.eu/ontologies#chic_0002111> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002115> .
+<http://www.chic-vph.eu/ontologies#chic_0002111> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002116> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002112> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002111> .
+<http://www.chic-vph.eu/ontologies#chic_0002112> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002113> .
+<http://www.chic-vph.eu/ontologies#chic_0002112> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002114> .
+<http://www.chic-vph.eu/ontologies#chic_0002112> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002115> .
+<http://www.chic-vph.eu/ontologies#chic_0002112> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002116> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002113> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002112> .
+<http://www.chic-vph.eu/ontologies#chic_0002113> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002111> .
+<http://www.chic-vph.eu/ontologies#chic_0002113> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002114> .
+<http://www.chic-vph.eu/ontologies#chic_0002113> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002115> .
+<http://www.chic-vph.eu/ontologies#chic_0002113> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002116> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002114> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002112> .
+<http://www.chic-vph.eu/ontologies#chic_0002114> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002113> .
+<http://www.chic-vph.eu/ontologies#chic_0002114> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002111> .
+<http://www.chic-vph.eu/ontologies#chic_0002114> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002115> .
+<http://www.chic-vph.eu/ontologies#chic_0002114> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002116> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002115> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002112> .
+<http://www.chic-vph.eu/ontologies#chic_0002115> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002113> .
+<http://www.chic-vph.eu/ontologies#chic_0002115> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002114> .
+<http://www.chic-vph.eu/ontologies#chic_0002115> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002111> .
+<http://www.chic-vph.eu/ontologies#chic_0002115> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002116> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002112> .
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002113> .
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002114> .
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002115> .
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002011> <http://www.chic-vph.eu/ontologies#chic_0002111> .
+#
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002052> <http://www.chic-vph.eu/ontologies#chic_0002153> .
+<http://www.chic-vph.eu/ontologies#chic_0002116> <http://www.chic-vph.eu/ontologies#chic_0002053> <http://www.chic-vph.eu/ontologies#chic_0002152> .
