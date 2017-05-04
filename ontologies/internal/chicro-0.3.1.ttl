@@ -1,0 +1,967 @@
+@prefix : <http://www.chic-vph.eu/ontologies#> .
+@prefix chicro: <http://www.chic-vph.eu/ontologies#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.chic-vph.eu/ontologies> .
+
+<http://www.chic-vph.eu/ontologies> rdf:type owl:Ontology .
+
+# Published: https://github.com/open-physiology/chic/tree/master/ontologies/internal/chicro-0.3.0.ttl
+# License CC-By 4.0 https://creativecommons.org/licenses/by/4.0/
+# p.grenon @ ucl.ac.uk
+
+  
+#### Abstractions 
+
+<http://www.chic-vph.eu/ontologies#chic_0000231> 
+	rdf:type owl:Class ;
+	rdfs:label "characteristics of modelling approach"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0000241> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "Scale"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0000244> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "scale characterised by"@en ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0000241> ;
+	rdfs:range rdfs:Resource 
+		# <http://www.chic-vph.eu/ontologies#chic_0000101> 
+		.
+		
+<http://www.chic-vph.eu/ontologies#chic_0000242> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "scale characterised by unit type"@en ;
+	rdfs:subPropertyOf <http://www.chic-vph.eu/ontologies#chic_0000244> ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0000241> ;
+	rdfs:range rdfs:Resource 
+		# <http://www.chic-vph.eu/ontologies#chic_0000101> 
+		.
+
+<http://www.chic-vph.eu/ontologies#chic_0000243> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "scale characterised by the scale of type"@en ;
+	rdfs:subPropertyOf <http://www.chic-vph.eu/ontologies#chic_0000244> ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0000241> ;
+	rdfs:range rdfs:Resource 
+		# <http://www.chic-vph.eu/ontologies#chic_0000101> 
+		.
+		
+###########
+### CHIC perspective I -- tissues 
+
+<http://www.chic-vph.eu/ontologies#chic_0000200> 
+	rdf:type owl:Class ;
+	rdfs:label "Tumor-affected normal tissue modelling"@en .
+	
+# tumour = neoplasm -- http://purl.obolibrary.org/obo/HP_0002664
+# tumour or treatment affected normal tissue = neoplastic tissue -- neoplastic http://purl.obolibrary.org/obo/PATO_0002011 portion of tissue http://purl.obolibrary.org/obo/FMA_9637 inheres in
+# oedema = edema -- http://purl.obolibrary.org/obo/HP_0000969
+
+
+###########
+### CHIC perspective II -- scales 
+
+
+<http://www.chic-vph.eu/ontologies#chic_0000200> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000241> ;
+	rdfs:label "Spatial scale"@en .
+
+### SCALES - PERSPECTIVE II 
+#
+# atomic, molecular, cellular, tissue, organ, body system, organism, population, ... combinations
+
+#	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+
+<http://www.chic-vph.eu/ontologies#chic_0000201> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  <http://www.chic-vph.eu/ontologies#chic_0000200>
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000243> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_0033250> ] ) ] ;
+	rdfs:label "atomic scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000202> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  <http://www.chic-vph.eu/ontologies#chic_0000200>
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000243> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_0025367> ] ) ] ;
+	rdfs:label "molecular scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000203> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  <http://www.chic-vph.eu/ontologies#chic_0000200>
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000243> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/CL_0000000> ] ) ] ;
+		rdfs:label "cellular scale"@en .
+# http://purl.obolibrary.org/obo/CL_0000000
+
+<http://www.chic-vph.eu/ontologies#chic_0000204> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	rdfs:label "tissue scale"@en .
+# Portion of tissue FMA_9637
+ 
+<http://www.chic-vph.eu/ontologies#chic_0000205> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	rdfs:label "organ scale"@en .
+# organ: FMA_67498
+
+<http://www.chic-vph.eu/ontologies#chic_0000206> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	rdfs:label "body system scale"@en .
+# body system organ system FMA_7152
+
+<http://www.chic-vph.eu/ontologies#chic_0000207> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	rdfs:label "organism scale"@en .
+# body FMA_256135
+
+<http://www.chic-vph.eu/ontologies#chic_0000208> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000200> ;
+	rdfs:label "population scale"@en .
+# pop
+
+###########
+### CHIC perspective III -- time scale 
+
+# Use temporal units 
+# LINKS TO specialisations of http://purl.obolibrary.org/obo/UO_0000003 (time unit)
+# nsec, msec, sec, min, h, d, y, combinations
+
+<http://www.chic-vph.eu/ontologies#chic_0000232> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000241> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000241
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000003> ] ) ] ;
+	rdfs:label "Temporal scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000233> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000150> ] ) ] ;
+	rdfs:label "nsec scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000234> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000028> ] ) ] ;
+	rdfs:label "msec scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000235> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000010> ] ) ] ;
+	rdfs:label "sec scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000236> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000031> ] ) ] ;
+	rdfs:label "min scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000237> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000032> ] ) ] ;
+	rdfs:label "h scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000238> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000033> ] ) ] ;
+	rdfs:label "d scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000239> 
+	rdf:type owl:Class ;
+	# rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	#
+	owl:equivalentClass [ 
+	 rdf:type owl:Class ;
+	 owl:intersectionOf (
+	  :chic_0000232
+	  [ rdf:type owl:Restriction ;
+	    owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000242> ;
+		owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000036> ] ) ] ;
+	rdfs:label "y scale"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000240> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000232> ;
+	rdfs:label "decade scale"@en .
+	
+###########
+### CHIC perspective IV -- biomechanisms addressed
+# Use GO Processes -- any specialisation of biological process http://purl.obolibrary.org/obo/GO_0008150
+# http://purl.obolibrary.org/obo/GO_0006915 apoptotic process
+# http://purl.obolibrary.org/obo/GO_0022402 cell cycle process 
+# http://purl.obolibrary.org/obo/GO_0070265 necrotic cell death
+
+
+###########
+### CHIC perspective V -- tumour type(s) addressed
+# Use HPO or DO -- 
+# Lung cancer - http://purl.obolibrary.org/obo/HP_0100526 neoplasm of the lung (best match)
+# gliobastoma http://purl.obolibrary.org/obo/HP_0100843
+# nephroblastoma http://purl.obolibrary.org/obo/HP_0002667
+# colon cancer http://purl.obolibrary.org/obo/HP_0003003
+# prostate cancer http://purl.obolibrary.org/obo/HP_0012125
+
+###########
+### CHIC perspective VI -- treatments addressed
+# Use ??? --- no ontology covering therapies?
+
+###########
+### CHIC perspective VII -- treatments addressed
+# Use ??? --- no ontology covering therapies?
+
+### Rest is 
+### Ad hoc
+
+
+###########
+### CHIC perspective VIII -- order of addressing different spatial scales
+# bottom-up
+# middle-out
+# top-down
+# combinations
+
+<http://www.chic-vph.eu/ontologies#chic_0000210> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "order of addressing different spatial scales"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000211> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000210> ;
+	rdfs:label "bottom-up"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000212> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000210> ;
+	rdfs:label "middle-out"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000213> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000210> ;
+	rdfs:label "top-down"@en .
+	
+###########
+### CHIC perspective IX -- order of addressing different temporal scales
+# "short periods -> longer periods"
+# "long periods -> shorter periods"
+# "combinations"
+
+<http://www.chic-vph.eu/ontologies#chic_0000214> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "order of addressing different temporal scales"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000215> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000214> ;
+	rdfs:label "from short periods to longer periods"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000216> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000214> ;
+	rdfs:label "from long periods to shorter periods"@en .
+
+###########
+### CHIC perspective X -- mechanistic-statistical character of the modelling approach
+# explicit biological mechanism modeling (e.g. using cytokinetic diagrams)
+# neural networks based “black box” statistical modeling
+
+<http://www.chic-vph.eu/ontologies#chic_0000217> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "mechanistic-statistical character of the modelling approach"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000218> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000217> ;
+	rdfs:label "explicit biological mechanism modeling (e.g. using cytokinetic diagrams)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000219> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000217> ;
+	rdfs:label "neural networks based, black box, statistical modeling"@en .
+
+###########
+### CHIC perspective XI -- deterministic-stochastic character of the modelling approach
+
+<http://www.chic-vph.eu/ontologies#chic_0000220> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "deterministic-stochastic character of the modelling approach"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000221> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000220> ;
+	rdfs:label "deterministic modelling approach"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000222> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000220> ;
+	rdfs:label "stochastic modelling approach"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000223> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000220> ;
+	rdfs:label "hybrid deterministic-stochastic modelling approach"@en .
+
+	
+###########
+### CHIC perspective XII -- continuous, finite, discrete character of the mathematics involved
+
+
+<http://www.chic-vph.eu/ontologies#chic_0000224> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "mathematical formalism"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000225> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000224> ;
+	rdfs:label "continuous mathematics"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000226> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000224> ;
+	rdfs:label "finite (finitized continuous) mathematics"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000227> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000224> ;
+	rdfs:label "discrete mathematics"@en .
+
+
+###########
+### CHIC perspective XIII -- closed form solution or algorithmic
+
+<http://www.chic-vph.eu/ontologies#chic_0000228> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000231> ;
+	rdfs:label "closed form solution or algorithmic modelling approach"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000229> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000228> ;
+	rdfs:label "closed form solution based modelling"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000230> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000228> ;
+	rdfs:label "algorithmic simulation"@en .                    
+   
+                  
+#################### Age etc 
+# Now skip to use UO 
+# units stuff
+#
+
+<http://www.chic-vph.eu/ontologies#chic_0000100> #
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "has unit"@en .
+
+#<http://www.chic-vph.eu/ontologies#chic_0000101> 
+#	rdf:type owl:Class ;
+#	rdfs:label "unit of measurement"@en .
+
+#	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000101> ;
+
+#<http://www.chic-vph.eu/ontologies#chic_0000102> 
+##	rdf:type <http://www.chic-vph.eu/ontologies#chic_0000101>, #owl:NamedIndividual ;
+#	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000101> ;
+#	rdfs:label "year (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0000103> 
+	rdf:type owl:DatatypeProperty ;
+	rdfs:label "has scalar value"@en .
+
+
+###
+# durations (for age) 
+
+<http://www.chic-vph.eu/ontologies#chic_0001000> 
+	rdf:type owl:Class ;
+	rdfs:label "duration"@en ; 
+	owl:equivalentClass <http://purl.obolibrary.org/obo/PATO_0001309> .
+
+#	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+
+
+<http://www.chic-vph.eu/ontologies#chic_0001001> 
+	rdf:type owl:Class ;
+	rdfs:label "duration in years"@en ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001000> ,
+	[ rdf:type owl:Restriction ;
+	owl:onProperty <http://www.chic-vph.eu/ontologies#chic_0000100> ;
+#	owl:hasValue <http://www.chic-vph.eu/ontologies#chic_0000102>
+	owl:someValuesFrom <http://purl.obolibrary.org/obo/UO_0000036>
+		] .
+
+#
+<http://www.chic-vph.eu/ontologies#chic_0001002> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "1 year"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 1 .
+
+<http://www.chic-vph.eu/ontologies#chic_0001003> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "2 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 2 .
+
+<http://www.chic-vph.eu/ontologies#chic_0001004> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "3 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 3 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001005> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "4 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 4 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001006> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "5 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 5 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001007> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "10 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 10 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001008> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "20 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 20 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001009> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "30 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 30 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001010> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "40 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 40 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001011> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "50 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 50 .
+	
+<http://www.chic-vph.eu/ontologies#chic_0001012> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "60 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 60 .
+
+<http://www.chic-vph.eu/ontologies#chic_0001013> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001001> ;
+	rdfs:label "70 years"@en ; 
+. #	<http://www.chic-vph.eu/ontologies#chic_0000103> 70 .
+
+
+
+#### 0.2.2+ interpretations
+
+# timepoint (duration to)
+<http://www.chic-vph.eu/ontologies#chic_0001020> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0001309> ;
+	rdfs:label "Duration to timepoint"@en . 
+
+# doubling time (duration)
+<http://www.chic-vph.eu/ontologies#chic_0001021> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0001309> ;
+	rdfs:label "Doubling time duration "@en . 
+
+# Percentage (< ratio PATO_0001470)
+<http://www.chic-vph.eu/ontologies#chic_0001022> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0001470> ;
+	rdfs:label "Percentage"@en . 
+
+# Probability (ratio http://purl.org/obo/owlapi/quality#PATO_0001470)
+<http://www.chic-vph.eu/ontologies#chic_0001023> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0001470> ;
+	rdfs:label "Probability"@en . 
+
+# Proliferating cell population rate 
+<http://www.chic-vph.eu/ontologies#chic_0001024> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0000161> ;
+	rdfs:label "Rate of proliferation of cell population"@en . 
+	
+# Cell kill rate probability 
+<http://www.chic-vph.eu/ontologies#chic_0001025> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0001023> ;
+	rdfs:label "Cell kill rate (probability)"@en . 
+
+# Cell population count  
+<http://www.chic-vph.eu/ontologies#chic_0001026> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://purl.org/obo/owlapi/quality#PATO_0000070> ;
+	rdfs:label "Count of cells in population"@en . 
+
+
+#####
+
+
+
+### 0.1.4+ 
+# Unit tests 
+
+<http://www.chic-vph.eu/ontologies#chic_0001999> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "maps to string"@en ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Literal .
+
+<http://www.chic-vph.eu/ontologies#chic_0002000> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "maps to"@en ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource .
+
+<http://www.chic-vph.eu/ontologies#chic_0002001> 
+	rdf:type owl:Class ;
+#	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0000000> ;
+	rdfs:label "Unit"@en  
+. 
+
+<http://www.chic-vph.eu/ontologies#chic_0002010> 
+	rdf:type owl:ObjectProperty, owl:SymmetricProperty, owl:TransitiveProperty  ;
+	rdfs:label "equivalent unit"@en ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:range <http://www.chic-vph.eu/ontologies#chic_0002001>
+.
+
+<http://www.chic-vph.eu/ontologies#chic_0002011> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "convertible unit"@en ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:range <http://www.chic-vph.eu/ontologies#chic_0002001>
+.
+
+<http://www.chic-vph.eu/ontologies#chic_0002012> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "codimensional unit"@en ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:range <http://www.chic-vph.eu/ontologies#chic_0002001>
+.
+
+<http://www.chic-vph.eu/ontologies#chic_0002013> 
+	rdf:type owl:ObjectProperty ;
+	rdfs:label "unit in the dimension of"@en ;
+	rdfs:domain <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:range rdfs:Resource # <http://www.chic-vph.eu/ontologies#chic_0002001>
+.
+
+## Duration unit -- Temporal?
+## Spatial unit 
+##   Length unit 
+##   Surface unit 
+##   Volume unit 
+## Concentration unit
+## Rate unit
+## Count unit
+
+<http://www.chic-vph.eu/ontologies#chic_0002101> 
+	rdf:type owl:Class ;
+    rdfs:subClassOf :chic_0002001 , 
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002114 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002115 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002113 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002112 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002111 ] ;
+	rdfs:label "Dimension of Duration Unit"@en  ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000003> ;
+	chicro:chic_0001999 "UO_0000003" 
+. 
+
+<http://www.chic-vph.eu/ontologies#chic_0002102> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:label "Dimension of Spatial Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002103> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002102> ;
+	rdfs:label "Dimension of Length Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002104> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002102> ;
+	rdfs:label "Dimension of Surface Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002105> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002102> ,
+	                [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002152 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002151 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002153 ] ;
+	rdfs:label "Dimension of Volume Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002106> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:label "Dimension of Concentration Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002107> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:label "Dimension of Rate Unit"@en . 
+
+<http://www.chic-vph.eu/ontologies#chic_0002108> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002001> ;
+	rdfs:label "Dimension of Count Unit"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002109> 
+	rdf:type owl:Class ;
+	rdfs:subClassOf <http://www.chic-vph.eu/ontologies#chic_0002001> , 
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002191 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002192 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002193 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002194 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002195 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002196 ] ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :chic_0002011 ;
+                      owl:hasValue :chic_0002197 ] ;
+	rdfs:label "Dimension of Mass Unit"@en .
+
+##
+
+<http://www.chic-vph.eu/ontologies#chic_0002111> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101>;
+	rdfs:label "year (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000036> ;
+	chicro:chic_0001999 "UO_0000036" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002112> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "day (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000033> ;
+	chicro:chic_0001999 "UO_0000033" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002113> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "hour (unit)"@en ;
+	# h hour
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000032> ;
+	chicro:chic_0001999 "UO_0000032" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002114> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "minute (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000031> ;
+	chicro:chic_0001999 "UO_0000031" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002115> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "second (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000010> ;
+	chicro:chic_0001999 "UO_0000010" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002116> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002101>;
+	rdfs:label "month (unit)"@en ;
+#	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000036> ;
+#	chicro:chic_0001999 "UO_0000036" 
+.
+
+# 
+
+<http://www.chic-vph.eu/ontologies#chic_0002151> 
+	rdf:type :chic_0002105 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "liter (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002152> 
+	rdf:type :chic_0002105 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "milliliter (unit)"@en .
+
+#<http://www.chic-vph.eu/ontologies#chic_0002131> 
+#	rdf:type :chic_0002103 ;
+#	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+#	#, owl:NamedIndividual ;
+#	rdfs:label "millimeter (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002153> 
+	rdf:type :chic_0002105 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "cubic centimeter (unit)"@en ;
+	chicro:chic_0002010 <http://www.chic-vph.eu/ontologies#chic_0002152> .
+
+<http://www.chic-vph.eu/ontologies#chic_0002154> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001>;
+	rdfs:label "Gray (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000134> ;
+	chicro:chic_0001999 "UO_0000134" .
+
+# assert convertibility 
+# assert equivalence
+
+## filler 
+
+<http://www.chic-vph.eu/ontologies#chic_0002171> 
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per hour (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002172> 
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per day (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002173> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per month (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002174> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per year (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002175> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per second (unit)"@en .
+
+
+### 
+
+<http://www.chic-vph.eu/ontologies#chic_0002191> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "gram (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000021> ;
+	chicro:chic_0001999 "UO_0000021" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002192> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "decigram (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000021> ;
+	chicro:chic_0001999 "UO_0000021" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002193> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "centigram (unit)"@en .
+	# chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_> ;
+	# chicro:chic_0001999 "UO_" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002194> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "milligram (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000022> ;
+	chicro:chic_0001999 "UO_0000022" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002195> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "microgram (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000023> ;
+	chicro:chic_0001999 "UO_0000023" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002196> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "nanogram (unit)"@en ;
+	chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_0000024> ;
+	chicro:chic_0001999 "UO_0000024" .
+
+<http://www.chic-vph.eu/ontologies#chic_0002197> 
+	rdf:type <http://www.chic-vph.eu/ontologies#chic_0002109>;
+	rdfs:label "attogram (unit)"@en .
+	# chicro:chic_0002000 <http://purl.obolibrary.org/obo/UO_> ;
+	# chicro:chic_0001999 "UO_" .
+
+#### Sparse ad hoc
+
+<http://www.chic-vph.eu/ontologies#chic_0002201>
+# mm^2/hr 
+	rdf:type :chic_0002001 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "square millimeter per hour (unit)"@en .
+	
+<http://www.chic-vph.eu/ontologies#chic_0002202>
+# kg/m^3 
+	rdf:type :chic_0002001 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "kilogram per cubic meter (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002203>
+# percent 
+	rdf:type :chic_0002001 ;
+	# rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per cent (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002204> 
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "per cell (unit)"@en .
+	
+<http://www.chic-vph.eu/ontologies#chic_0002205>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "gram per month (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002206>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "milligram per day (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002207>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "nanogram per milliliter (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002208>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "milligram per milliliter (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002209>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "attogram per milliliter per cell per month (unit)"@en .
+
+<http://www.chic-vph.eu/ontologies#chic_0002210>
+    rdf:type <http://www.chic-vph.eu/ontologies#chic_0002001> ; 
+	#, owl:NamedIndividual ;
+	rdfs:label "attogram per milliliter per cell per day (unit)"@en .
+
+
