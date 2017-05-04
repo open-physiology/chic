@@ -1,0 +1,73 @@
+{
+  "head": {
+    "vars": [ "valueURI" , "valueLabel" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001024" } ,
+        "valueLabel": { "type": "literal" , "value": "rate of proliferation of cell population" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000070" } ,
+        "valueLabel": { "type": "literal" , "value": "count" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000918" } ,
+        "valueLabel": { "type": "literal" , "value": "volume" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001021" } ,
+        "valueLabel": { "type": "literal" , "value": "doubling time (duration)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000011" } ,
+        "valueLabel": { "type": "literal" , "value": "age" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001022" } ,
+        "valueLabel": { "type": "literal" , "value": "percentage (ratio)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001020" } ,
+        "valueLabel": { "type": "literal" , "value": "timepoint (duration to)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000161" } ,
+        "valueLabel": { "type": "literal" , "value": "rate" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001309" } ,
+        "valueLabel": { "type": "literal" , "value": "duration" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001745" } ,
+        "valueLabel": { "type": "literal" , "value": "radiation absorbed dose" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001023" } ,
+        "valueLabel": { "type": "literal" , "value": "probability (ratio)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001025" } ,
+        "valueLabel": { "type": "literal" , "value": "cell kill rate (probability)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000033" } ,
+        "valueLabel": { "type": "literal" , "value": "concentration" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001026" } ,
+        "valueLabel": { "type": "literal" , "value": "count of cells in population" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0002326" } ,
+        "valueLabel": { "type": "literal" , "value": "angle" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001470" } ,
+        "valueLabel": { "type": "literal" , "value": "ratio" }
+      }
+    ]
+  }
+}
