@@ -1,0 +1,61 @@
+{
+  "head": {
+    "vars": [ "valueURI" , "valueLabel" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002115" } ,
+        "valueLabel": { "type": "literal" , "value": "second (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002113" } ,
+        "valueLabel": { "type": "literal" , "value": "hour (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002203" } ,
+        "valueLabel": { "type": "literal" , "value": "per cent (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002131" } ,
+        "valueLabel": { "type": "literal" , "value": "millimeter (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002201" } ,
+        "valueLabel": { "type": "literal" , "value": "square millimeter per hour (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002111" } ,
+        "valueLabel": { "type": "literal" , "value": "year (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002202" } ,
+        "valueLabel": { "type": "literal" , "value": "kilogram per cubic meter (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002112" } ,
+        "valueLabel": { "type": "literal" , "value": "day (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002153" } ,
+        "valueLabel": { "type": "literal" , "value": "cubic centimeter (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002116" } ,
+        "valueLabel": { "type": "literal" , "value": "month (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002171" } ,
+        "valueLabel": { "type": "literal" , "value": "per hour (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002151" } ,
+        "valueLabel": { "type": "literal" , "value": "litter (unit)" }
+      } ,
+      {
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002152" } ,
+        "valueLabel": { "type": "literal" , "value": "milliliter (unit)" }
+      }
+    ]
+  }
+}
