@@ -1,0 +1,444 @@
+{
+  "head": {
+    "vars": [ "property" , "valueURI" , "valueLabel" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-1" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0002664" } ,
+        "valueLabel": { "type": "literal" , "value": "tumour" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-1" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/FMA_9637" } ,
+        "valueLabel": { "type": "literal" , "value": "tumour or treatment affected normal tissue" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-1" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0000969" } ,
+        "valueLabel": { "type": "literal" , "value": "oedema" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000201" } ,
+        "valueLabel": { "type": "literal" , "value": "atomic scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000202" } ,
+        "valueLabel": { "type": "literal" , "value": "molecular scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000203" } ,
+        "valueLabel": { "type": "literal" , "value": "cellular scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000204" } ,
+        "valueLabel": { "type": "literal" , "value": "tissue scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000205" } ,
+        "valueLabel": { "type": "literal" , "value": "organ scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000206" } ,
+        "valueLabel": { "type": "literal" , "value": "body system scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000207" } ,
+        "valueLabel": { "type": "literal" , "value": "organism scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-2" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000208" } ,
+        "valueLabel": { "type": "literal" , "value": "population scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000233" } ,
+        "valueLabel": { "type": "literal" , "value": "nsec scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000234" } ,
+        "valueLabel": { "type": "literal" , "value": "msec scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000235" } ,
+        "valueLabel": { "type": "literal" , "value": "sec scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000236" } ,
+        "valueLabel": { "type": "literal" , "value": "min scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000237" } ,
+        "valueLabel": { "type": "literal" , "value": "hour scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000238" } ,
+        "valueLabel": { "type": "literal" , "value": "day scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000239" } ,
+        "valueLabel": { "type": "literal" , "value": "year scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-3" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000240" } ,
+        "valueLabel": { "type": "literal" , "value": "decade scale" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0006915" } ,
+        "valueLabel": { "type": "literal" , "value": "apoptosis" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0022402" } ,
+        "valueLabel": { "type": "literal" , "value": "cell cycling" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0070265" } ,
+        "valueLabel": { "type": "literal" , "value": "necrosis" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19323" } ,
+        "valueLabel": { "type": "literal" , "value": "basic tumour biology" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16346" } ,
+        "valueLabel": { "type": "literal" , "value": "biomechanics" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0003674" } ,
+        "valueLabel": { "type": "literal" , "value": "molecular" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0008150" } ,
+        "valueLabel": { "type": "literal" , "value": "angiogenesis" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-4" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/GO_0008152" } ,
+        "valueLabel": { "type": "literal" , "value": "metabolism" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0100526" } ,
+        "valueLabel": { "type": "literal" , "value": "lung cancer" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0100843" } ,
+        "valueLabel": { "type": "literal" , "value": "gliobastoma" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0002667" } ,
+        "valueLabel": { "type": "literal" , "value": "nephroblastoma" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0003003" } ,
+        "valueLabel": { "type": "literal" , "value": "colon cancer" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-5" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.obolibrary.org/obo/HP_0012125" } ,
+        "valueLabel": { "type": "literal" , "value": "prostate cancer" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-8" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000211" } ,
+        "valueLabel": { "type": "literal" , "value": "bottom-up" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-8" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000212" } ,
+        "valueLabel": { "type": "literal" , "value": "middle-out" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-8" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000213" } ,
+        "valueLabel": { "type": "literal" , "value": "top-down" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-9" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000215" } ,
+        "valueLabel": { "type": "literal" , "value": "from short periods to longer periods" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-9" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000216" } ,
+        "valueLabel": { "type": "literal" , "value": "from long periods to shorter periods" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-10" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000218" } ,
+        "valueLabel": { "type": "literal" , "value": "explicit biological mechanism modeling (e.g. using cytokinetic diagrams)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-10" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000219" } ,
+        "valueLabel": { "type": "literal" , "value": "neural networks based, black box, statistical modeling" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-11" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000221" } ,
+        "valueLabel": { "type": "literal" , "value": "deterministic modelling approach" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-11" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000222" } ,
+        "valueLabel": { "type": "literal" , "value": "stochastic modelling approach" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-11" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000223" } ,
+        "valueLabel": { "type": "literal" , "value": "hybrid deterministic-stochastic modelling approach" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-12" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000225" } ,
+        "valueLabel": { "type": "literal" , "value": "continuous mathematics" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-12" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000226" } ,
+        "valueLabel": { "type": "literal" , "value": "finite (finitized continuous) mathematics" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-12" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000227" } ,
+        "valueLabel": { "type": "literal" , "value": "discrete mathematics" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-13" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000229" } ,
+        "valueLabel": { "type": "literal" , "value": "closed form solution based modelling" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#hasPositionIn-13" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0000230" } ,
+        "valueLabel": { "type": "literal" , "value": "algorithmic simulation" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsMandatory" } ,
+        "valueLabel": { "type": "literal" , "value": "Mandatory" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsOutput" } ,
+        "valueLabel": { "type": "literal" , "value": "Output" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsStatic" } ,
+        "valueLabel": { "type": "literal" , "value": "Static" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsModellingLogic" } ,
+        "valueLabel": { "type": "literal" , "value": "Modelling logic" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDomainLogic" } ,
+        "valueLabel": { "type": "literal" , "value": "Domain logic" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsAggregateData" } ,
+        "valueLabel": { "type": "literal" , "value": "Aggregate data" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsDiscreteData" } ,
+        "valueLabel": { "type": "literal" , "value": "Discrete data" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPatientSpecific" } ,
+        "valueLabel": { "type": "literal" , "value": "Patient specific" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsPopulationSpecific" } ,
+        "valueLabel": { "type": "literal" , "value": "Population specific" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#modelParameterHasAttribute" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#ModelParameterAttribute-IsGeneric" } ,
+        "valueLabel": { "type": "literal" , "value": "Generic" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000033" } ,
+        "valueLabel": { "type": "literal" , "value": "concentration" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000161" } ,
+        "valueLabel": { "type": "literal" , "value": "rate" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000070" } ,
+        "valueLabel": { "type": "literal" , "value": "count" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001470" } ,
+        "valueLabel": { "type": "literal" , "value": "ratio" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001309" } ,
+        "valueLabel": { "type": "literal" , "value": "duration" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000011" } ,
+        "valueLabel": { "type": "literal" , "value": "age" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0000918" } ,
+        "valueLabel": { "type": "literal" , "value": "volume" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0002326" } ,
+        "valueLabel": { "type": "literal" , "value": "angle" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://purl.org/obo/owlapi/quality#PATO_0001745" } ,
+        "valueLabel": { "type": "literal" , "value": "radiation absorbed dose" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001020" } ,
+        "valueLabel": { "type": "literal" , "value": "timepoint (duration to)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001021" } ,
+        "valueLabel": { "type": "literal" , "value": "doubling time (duration)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001022" } ,
+        "valueLabel": { "type": "literal" , "value": "percentage (ratio)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001023" } ,
+        "valueLabel": { "type": "literal" , "value": "probability (ratio)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001025" } ,
+        "valueLabel": { "type": "literal" , "value": "cell kill rate (probability)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001024" } ,
+        "valueLabel": { "type": "literal" , "value": "rate of proliferation of cell population" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#interpreted-type" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0001026" } ,
+        "valueLabel": { "type": "literal" , "value": "count of cells in population" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002154" } ,
+        "valueLabel": { "type": "literal" , "value": "Gray (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002111" } ,
+        "valueLabel": { "type": "literal" , "value": "year (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002116" } ,
+        "valueLabel": { "type": "literal" , "value": "month (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002112" } ,
+        "valueLabel": { "type": "literal" , "value": "day (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002113" } ,
+        "valueLabel": { "type": "literal" , "value": "hour (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002115" } ,
+        "valueLabel": { "type": "literal" , "value": "second (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002131" } ,
+        "valueLabel": { "type": "literal" , "value": "millimeter (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002151" } ,
+        "valueLabel": { "type": "literal" , "value": "liter (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002152" } ,
+        "valueLabel": { "type": "literal" , "value": "milliliter (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002153" } ,
+        "valueLabel": { "type": "literal" , "value": "cubic centimeter (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002171" } ,
+        "valueLabel": { "type": "literal" , "value": "per hour (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002202" } ,
+        "valueLabel": { "type": "literal" , "value": "kilogram per cubic meter (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002201" } ,
+        "valueLabel": { "type": "literal" , "value": "square millimeter per hour (unit)" }
+      } ,
+      {
+        "property": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies/resource#parameterhasUnits" } ,
+        "valueURI": { "type": "uri" , "value": "http://www.chic-vph.eu/ontologies#chic_0002203" } ,
+        "valueLabel": { "type": "literal" , "value": "per cent (unit)" }
+      }
+    ]
+  }
+}
